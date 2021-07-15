@@ -1,5 +1,6 @@
 ﻿using nuitrack;
 using VL.Lib.Basics.Imaging;
+using System.Runtime.InteropServices;
 
 namespace VL.Devices.Nuitrack
 {
@@ -13,7 +14,10 @@ namespace VL.Devices.Nuitrack
         {
             Frame = frame;
             Info = new ImageInfo(frame.Cols, frame.Rows, PixelFormat.B8G8R8);
-            image = new ArrayImage<byte>(frame.Data, Info, true);
+            byte[] temp = new byte[frame.DataSize];
+            Marshal.Copy(frame.Data, temp, 0, frame.DataSize);
+            image = new ArrayImage<byte>(temp, Info, true);
+            temp = null;
         }
 
         public ImageInfo Info { get; }

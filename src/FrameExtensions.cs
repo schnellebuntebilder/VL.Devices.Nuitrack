@@ -4,6 +4,7 @@ using System.Reactive.Linq;
 using VL.Lib.Basics.Imaging;
 using VL.Lib.Collections;
 using Stride.Core.Mathematics;
+using System.Runtime.InteropServices;
 
 namespace VL.Devices.Nuitrack
 {
@@ -113,7 +114,12 @@ namespace VL.Devices.Nuitrack
         public static IImage ToUserImage(UserFrame frame)
         {
             ImageInfo info = new ImageInfo(frame.Cols, frame.Rows, PixelFormat.R16);
-            ArrayImage<byte> image = new ArrayImage<byte>(frame.Data, info, true);
+
+            byte[] temp = new byte[frame.DataSize];
+            Marshal.Copy(frame.Data, temp, 0, frame.DataSize);
+            ArrayImage<byte> image = new ArrayImage<byte>(temp, info, true);
+            temp = null;
+
             return image;
         }
     }
