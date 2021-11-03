@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="LIEtYdrRy3kPqelydP6a1l" LanguageVersion="2020.1.3.147" Version="0.128">
-  <NugetDependency Id="EEYSk9rCs8TLQ1HUJFqHly" Location="VL.CoreLib" Version="2020.1.3" />
+<Document xmlns:p="property" Id="LIEtYdrRy3kPqelydP6a1l" LanguageVersion="2021.3.1.89" Version="0.128">
+  <NugetDependency Id="EEYSk9rCs8TLQ1HUJFqHly" Location="VL.CoreLib" Version="2021.3.1" />
   <Patch Id="OF6M52TF0g1MIvRz41ucGu">
     <Canvas Id="Ue7xuqlBZHlLeRL5dLjZsS" DefaultCategory="Devices.Nuitrack" CanvasType="FullCategory">
       <Canvas Id="SU0RLJl3a2TP488puPQtMW" Name="Internal" Position="297,251">
@@ -499,7 +499,7 @@
         <Patch Id="CScFHA0yMhnLcEGSXAWQmn">
           <Canvas Id="InSvgLgtYZcMVsO3qiS80W" CanvasType="Group">
             <Node Bounds="456,372,35,19" Id="LVybHiVaV3jPDOiVSvMOMz">
-              <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+              <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ColorImage (Reactive)" />
               </p:NodeReference>
@@ -549,7 +549,7 @@
         <Patch Id="LvmCsEpkKRNLgizsp9BmQ9">
           <Canvas Id="R5E91wbbrdCNZjJmneylqv" CanvasType="Group">
             <Node Bounds="456,372,35,19" Id="G0tYG2DjfUgNOsPL0znWM6">
-              <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+              <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="DepthImage (Reactive)" />
               </p:NodeReference>
@@ -601,7 +601,7 @@
             <ControlPoint Id="Fxfn58hvMJQNFEWeV2VLOn" Bounds="529,496" />
             <ControlPoint Id="PjVarsY1FdTMTwD3yQ0S3q" Bounds="461,256" />
             <Node Bounds="459,292,56,26" Id="MuCgb5w3bgsP56L2ZkMmag">
-              <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+              <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="GetUserData" />
               </p:NodeReference>
@@ -670,7 +670,7 @@
               <Pin Id="Q4PUtbIQENvOWgoKi5cS4v" Name="On Data" Kind="OutputPin" />
             </Node>
             <Node Bounds="545,299,60,19" Id="LHIKHF5vPYIPO4Lt9qJum1">
-              <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+              <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Skeletons (Reactive)" />
               </p:NodeReference>
@@ -708,7 +708,7 @@
             <ControlPoint Id="JWX2dzg3z7NONdB7JIN1Cu" Bounds="285,326" />
             <ControlPoint Id="MWVubVMoMnALYYPurEHaxk" Bounds="285,483" />
             <Node Bounds="283,372,66,19" Id="DUcF0Snci5cPmJ1laL5FiD">
-              <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+              <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="PointCloud (Reactive)" />
               </p:NodeReference>
@@ -1031,7 +1031,7 @@
               <ControlPoint Id="Bi7xiiTI6fqPV2jVbHDDwR" Bounds="511,654" />
               <ControlPoint Id="MWy7kkcgvT3Mp9Z8Y9PSdm" Bounds="461,256" />
               <Node Bounds="459,292,56,26" Id="D7vxlUhJhb0NSaQGZz9wEF">
-                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GetColor" />
                 </p:NodeReference>
@@ -1040,7 +1040,7 @@
                 <Pin Id="CBDMfhuRUlFPIxGTStOjlC" Name="Color Images" Kind="OutputPin" />
               </Node>
               <Node Bounds="482,385,223,153" Id="U8DD2XpYvGmNhlR4YhNvkH">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                   <FullNameCategoryReference ID="Primitive" />
@@ -1130,7 +1130,7 @@
               <ControlPoint Id="SnopDXgBo68QHZNlL5I6qy" Bounds="504,596" />
               <ControlPoint Id="TNf51xjdDNxLoLVDhHmKDk" Bounds="461,256" />
               <Node Bounds="459,292,56,26" Id="SSAt72PQrfpMwYkJ7FY96P">
-                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GetDepth" />
                 </p:NodeReference>
@@ -1139,7 +1139,7 @@
                 <Pin Id="A2BgXtknExwOUEXHWejsNP" Name="Depth Images" Kind="OutputPin" />
               </Node>
               <Node Bounds="462,352,232,200" Id="CRT9wRbHKRnQGP0AQVbXN6">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                   <FullNameCategoryReference ID="Primitive" />
@@ -1272,7 +1272,7 @@
               <ControlPoint Id="VkNMdKWLpO3OPiCUlYVYOa" Bounds="658,227" />
               <ControlPoint Id="EVkewuTFnzQNBKsxJg7wBX" Bounds="747,227" />
               <Node Bounds="254,240,91,26" Id="OY9WdwG2lLhPZMHN8NUD44">
-                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GetSensors" />
                 </p:NodeReference>
@@ -1281,7 +1281,7 @@
                 <Pin Id="G46qfUUuDhpOVQIaFkTQgX" Name="Sensors" Kind="OutputPin" />
               </Node>
               <Node Bounds="299,310,464,463" Id="POVgbpI3t6aNUyROhoeTHp">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                   <FullNameCategoryReference ID="Primitive" />
@@ -1444,7 +1444,7 @@
                 <ControlPoint Id="Fn9jCgl77gkOHz4WaNXrQ2" Bounds="427,317" Alignment="Top" />
               </Node>
               <Node Bounds="465,250,56,26" Id="Oezuq5EKvyhPIuis9z5LFl">
-                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GetColor" />
                 </p:NodeReference>
@@ -1453,7 +1453,7 @@
                 <Pin Id="FSizQEXgai6OamDBGwS7Vg" Name="Color Images" Kind="OutputPin" />
               </Node>
               <Node Bounds="367,252,59,26" Id="GBQ1CZUawFEL4F5pKMyu1B">
-                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GetDepth" />
                 </p:NodeReference>
@@ -1559,7 +1559,7 @@
               <ControlPoint Id="UX8WvE2Rm8JLBTv7arMtoS" Bounds="547,348" />
               <ControlPoint Id="A8HxATjFirsLrIqnB9AMkO" Bounds="461,256" />
               <Node Bounds="459,284,91,26" Id="GYszUGYFByXP74mqvSYPCP">
-                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GetHandData" />
                 </p:NodeReference>
@@ -1681,7 +1681,7 @@
                   </Node>
                   <Link Id="CoCyh80MVJiOpoPi0me1x9" Ids="BIsbupbnnaDMeMK1aqlp7x,GAlqsbrzmc1QQUMnfikhTF" />
                   <Node Bounds="222,598,75,19" Id="GYDrQzpn4YYPOKGeXK8Kch">
-                    <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                    <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="FromVector3" />
                     </p:NodeReference>
@@ -1767,7 +1767,7 @@
                   <Pin Id="ML72OQI62qUPF3DFzUstCF" Name="Input" Kind="InputPin" />
                   <Pin Id="Hm0U1yNxcrqPASsY1WvbOB" Name="Output" Kind="OutputPin" />
                   <Node Bounds="425,600,16,19" Id="GilvTC1kTofQW04plfiPIO">
-                    <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                    <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="FromVector3" />
                     </p:NodeReference>
@@ -2040,7 +2040,7 @@
             <Canvas Id="PXkMd2X607LPXbqcAfLN1S" CanvasType="Group">
               <ControlPoint Id="KpqA2rW6uL6PXV67pHFe7g" Bounds="144,289" />
               <Node Bounds="142,316,67,26" Id="JxZ4y9iPhqMOdcpFwAnADM">
-                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GetSensors" />
                 </p:NodeReference>
@@ -2051,21 +2051,17 @@
               <ControlPoint Id="Q44lm051cWVL2tidtW5iMG" Bounds="212,804" />
               <ControlPoint Id="DWn1ULmsFIeQIVHlLh517y" Bounds="388,806" />
               <Node Bounds="168,388,377,395" Id="GRx08DLowrVOrREorZBzaY">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                   <FullNameCategoryReference ID="Primitive" />
                 </p:NodeReference>
-                <Pin Id="JHEFvCc0YTzQDyPAnYh4C2" Name="Force" Kind="InputPin">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Boolean" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="RJSzACr7RcgMuyffHEKJt5" Name="Dispose Cached Outputs" Kind="InputPin" />
-                <Pin Id="BVyeFxsQtJBOg7QarDF1x4" Name="Has Changed" Kind="OutputPin" />
                 <ControlPoint Id="AZlEwHexkFOMKa0SGaWyhy" Bounds="206,394" Alignment="Top" />
                 <ControlPoint Id="MGtxdWCVL0ENcn6zjAXS0w" Bounds="212,777" Alignment="Bottom" />
                 <ControlPoint Id="R42fDBpqju4OdnIcl5xqCQ" Bounds="388,777" Alignment="Bottom" />
+                <Pin Id="JHEFvCc0YTzQDyPAnYh4C2" Name="Force" Kind="InputPin" />
+                <Pin Id="RJSzACr7RcgMuyffHEKJt5" Name="Dispose Cached Outputs" Kind="InputPin" />
+                <Pin Id="BVyeFxsQtJBOg7QarDF1x4" Name="Has Changed" Kind="OutputPin" />
                 <Patch Id="OmYYJo8zIf3OeFp3XkIndP" ManuallySortedPins="true">
                   <Patch Id="Pvwt0Iau40bMtTuVjMxBdA" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="EXVDwDeS4c3QOxFTcMJTWy" Name="Then" ManuallySortedPins="true" />
@@ -2092,7 +2088,7 @@
                         <Pin Id="COQDQE8rzlaOLuPJIwTuWy" Name="Depth" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="409,584,112,130" Id="NnbBDsEXUj9LsxupdFP6Y7">
-                        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                           <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                           <Choice Kind="ApplicationStatefulRegion" Name="If" />
                           <FullNameCategoryReference ID="Primitive" />
@@ -2114,7 +2110,7 @@
                             <Pin Id="BoszhqABdBYNQC5KtHYXek" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="454,666,50,19" Id="GtEYyxFwA16Nz7xgHcyDFX">
-                            <p:NodeReference LastCategoryFullName="Devices.Nuitrack.FOV" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                            <p:NodeReference LastCategoryFullName="Devices.Nuitrack.FOV" LastSymbolSource="VL.Devices.NuiTrack.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="GetFOV" />
                             </p:NodeReference>
@@ -2166,7 +2162,7 @@
                         <Pin Id="PkiRbWtzfhSPa30nbOiXo5" Name="Not Assigned" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="233,582,112,137" Id="QX0gnw1rMaPOy4Idd6t5nB">
-                        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                           <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                           <Choice Kind="ApplicationStatefulRegion" Name="If" />
                           <FullNameCategoryReference ID="Primitive" />
@@ -2188,7 +2184,7 @@
                             <Pin Id="G97MbsVksVRLLrncAwoRoT" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="278,668,50,19" Id="GZ94ESNpjB2OksTeBgiZJb">
-                            <p:NodeReference LastCategoryFullName="Devices.Nuitrack.FOV" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                            <p:NodeReference LastCategoryFullName="Devices.Nuitrack.FOV" LastSymbolSource="VL.Devices.NuiTrack.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="GetFOV" />
                             </p:NodeReference>
@@ -2377,7 +2373,7 @@
           <Canvas Id="QNvMGzywOBRLfV31lIQtcM" CanvasType="Group">
             <ControlPoint Id="BJRsdaDVhqVPBre4GwJxXs" Bounds="461,256" />
             <Node Bounds="459,292,56,26" Id="DWbDTijH5WdLqyW5npwLXP">
-              <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+              <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="GetUserData" />
               </p:NodeReference>
@@ -2476,11 +2472,7 @@
                   <Choice Kind="TypeFlag" Name="Float32" />
                 </p:TypeAnnotation>
               </Pin>
-              <Pin Id="IEPb4HpNKWHP7oXq01Ql20" Name="Join" Kind="InputPin">
-                <p:TypeAnnotation LastCategoryFullName="Graphics.Skia.Unwrapped.Enums" LastSymbolSource="VL.Skia.vl">
-                  <Choice Kind="TypeFlag" Name="SKStrokeJoin" />
-                </p:TypeAnnotation>
-              </Pin>
+              <Pin Id="IEPb4HpNKWHP7oXq01Ql20" Name="Join" Kind="InputPin" />
               <Pin Id="J4v0iojL3x5PfoxnqU7F1m" Name="Cap" Kind="InputPin" DefaultValue="Round">
                 <p:TypeAnnotation LastCategoryFullName="Graphics.Skia.Unwrapped.Enums" LastSymbolSource="VL.Skia.vl">
                   <Choice Kind="TypeFlag" Name="SKStrokeCap" />
@@ -2575,7 +2567,7 @@
               <Pin Id="Dca8ORAwxCsPLk9Ck3h1ge" Name="Joint Confidences" Kind="OutputPin" />
             </Node>
             <Node Bounds="214,562,221,282" Id="D6Kh318YSimNcCtMYyHbwS">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -2707,7 +2699,7 @@
               <Pin Id="Ffb0g9uv48QLLjvLsyzbnl" Name="On Data" Kind="OutputPin" />
             </Node>
             <Node Bounds="545,299,-19,19" Id="NvEzqRcHWOqLpGM24lg4rk">
-              <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+              <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Hands (Reactive)" />
               </p:NodeReference>
@@ -2758,7 +2750,7 @@
               <p:HideCategory p:Type="Boolean">false</p:HideCategory>
               <Patch Id="TKQSVdPO1zBLp0CNdIQ9pt">
                 <Node Bounds="-247,570,662,324" Id="Bn67CnTTdIqNIaRzfB1S8f">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="If" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -2782,6 +2774,8 @@
                   <ControlPoint Id="JZjmv0UTVplL5uA7jY3oNF" Bounds="345,576" Alignment="Top" />
                   <ControlPoint Id="JYHuHmVBtFZN7xCRHljjAw" Bounds="387,887" Alignment="Bottom" />
                   <ControlPoint Id="HUNPoRmWYLtLZYHxytP9Pj" Bounds="365,576" Alignment="Top" />
+                  <ControlPoint Id="QEa3Tj7O5ysP5SOw0k7l4r" Bounds="-233,888" Alignment="Bottom" />
+                  <ControlPoint Id="FRwLQAe6D0OM4jCZEpCI5h" Bounds="-233,576" Alignment="Top" />
                   <Patch Id="IFGW6CUm4pvLuuxU3cZpvG" ManuallySortedPins="true">
                     <Patch Id="CNoaNiNrrpuP90zFFPosdQ" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="CMyT9J8YQm1NBGbN2noFTE" Name="Then" ManuallySortedPins="true" />
@@ -2796,7 +2790,7 @@
                       <Pin Id="IBiTeXqP9AJP5Wecihyz9f" Name="Left Hand" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="-150,662,92,19" Id="QwpAyshfAuGOdt9W5B2QKv">
-                      <p:NodeReference LastCategoryFullName="Devices.Nuitrack.UserHands" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                      <p:NodeReference LastCategoryFullName="Devices.Nuitrack.UserHands" LastSymbolSource="VL.Devices.NuiTrack.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="GetHandContent" />
                       </p:NodeReference>
@@ -2807,7 +2801,7 @@
                       <Pin Id="Pe7ox5Qxn6JN5nwuJA8VsC" Name="Click" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="254,666,92,19" Id="VHulu9XKUSaNAhRzhO1OuH">
-                      <p:NodeReference LastCategoryFullName="Devices.Nuitrack.UserHands" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                      <p:NodeReference LastCategoryFullName="Devices.Nuitrack.UserHands" LastSymbolSource="VL.Devices.NuiTrack.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="GetHandContent" />
                       </p:NodeReference>
@@ -2838,8 +2832,6 @@
                       <Pin Id="VfLIIpaRKEwOmpgcEC1KGR" Name="User Id" Kind="OutputPin" />
                     </Node>
                   </Patch>
-                  <ControlPoint Id="QEa3Tj7O5ysP5SOw0k7l4r" Bounds="-233,888" Alignment="Bottom" />
-                  <ControlPoint Id="FRwLQAe6D0OM4jCZEpCI5h" Bounds="-233,576" Alignment="Top" />
                 </Node>
                 <Node Bounds="-176,532,65,19" Id="CnjSBs7xzGZMyJEIwnztOQ">
                   <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
@@ -2938,7 +2930,7 @@
                   <Pin Id="Posihh7Cmk0P1pLDr6uzPM" Name="Has Value" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="853,612,522,418" Id="SO4cF6st8ENQWDjiNHl62b">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="If" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -3386,7 +3378,7 @@
                 <Node Bounds="202,399,63,26" Id="QUYTTfglBIVOsl6UrSljtE">
                   <p:NodeReference LastCategoryFullName="System.XML" LastSymbolSource="VL.Xml.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="ParseJSON" />
+                    <Choice Kind="OperationNode" Name="ParseJSON (XDocument)" />
                   </p:NodeReference>
                   <Pin Id="FTCeKZNEX1EOlNX0WwvLgx" Name="Input" Kind="InputPin" />
                   <Pin Id="LLcL0uEK6sDMeno8MKYISV" Name="Deserialize Root Element Name" Kind="InputPin" DefaultValue="Root">
@@ -3421,7 +3413,7 @@
                 </Node>
                 <Pad Id="Q0I5XeK4xlpNYeZL4KN316" Comment="" Bounds="308,515,35,15" ShowValueBox="true" isIOBox="true" />
                 <Node Bounds="191,533,730,1110" Id="HSjjVFMmsH1MOjfPsAmw0V">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                     <CategoryReference Kind="Category" Name="Primitive" />
@@ -3449,7 +3441,7 @@
                       </p:TypeAnnotation>
                     </Pad>
                     <Node Bounds="257,1268,70,106" Id="QxF9hXe5PtqOnGPN5tCbNO">
-                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                         <Choice Kind="ApplicationFlag" Name="ForEach" />
                         <CategoryReference Kind="Category" Name="Primitive" NeedsToBeDirectParent="true" />
@@ -4032,7 +4024,7 @@
                 <Pin Id="KcXUTB4AeHBPq6SsM5W9di" Name="Input" Kind="InputPin" Bounds="527,529" />
                 <Link Id="AfZQGTWRgsnQaBRgEv3tF3" Ids="KcXUTB4AeHBPq6SsM5W9di,VLC7Kg7eMijNirob6uw3le" IsHidden="true" />
                 <Node Bounds="176,538,532,234" Id="HBWlMAMUllZNRcviRmbVGO">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="If" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -4072,7 +4064,7 @@
                       <Pin Id="F9NpmvHjGoPNcX1AeZPPa7" Name="Joints" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="310,658,386,94" Id="JrZTfihTpRLNWmG6EduSFA">
-                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                         <Choice Kind="ApplicationFlag" Name="ForEach" />
                         <CategoryReference Kind="Category" Name="Primitive" NeedsToBeDirectParent="true" />
@@ -4397,8 +4389,8 @@
             <ControlPoint Id="Udj0CB9a6INQWjrR6x2eBj" Bounds="1423,1341" />
             <ControlPoint Id="RmKZygxSpZTLQwdDDTFymN" Bounds="78,1341" />
             <ControlPoint Id="Qth4S7OGXppNnzn0Kx6KE5" Bounds="1748,1341" />
-            <Node Bounds="110,366,1920,884" Id="TNnwU80W3BdNBYCVeNj11l">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+            <Node Bounds="110,247,1920,1002" Id="TNnwU80W3BdNBYCVeNj11l">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                 <FullNameCategoryReference ID="Primitive" />
@@ -4406,8 +4398,8 @@
               <Pin Id="DSaxI7zVK71MghfMSIiEOQ" Name="Force" Kind="InputPin" />
               <Pin Id="R5SsThzsHj6QHqwvfGTtZj" Name="Dispose Cached Outputs" Kind="InputPin" />
               <Pin Id="SzyekWwlFAVOZfXU4KnmYC" Name="Has Changed" Kind="OutputPin" />
-              <ControlPoint Id="SeNhg1ZYvHxNdwa1dVcQeD" Bounds="674,372" Alignment="Top" />
-              <ControlPoint Id="L4ppSIk5VveO7ApCWZFbrH" Bounds="1633,372" Alignment="Top" />
+              <ControlPoint Id="SeNhg1ZYvHxNdwa1dVcQeD" Bounds="674,357" Alignment="Top" />
+              <ControlPoint Id="L4ppSIk5VveO7ApCWZFbrH" Bounds="1633,357" Alignment="Top" />
               <ControlPoint Id="GlFjQ8v8j8gQYFgyg9HYhb" Bounds="123,1244" Alignment="Bottom" />
               <ControlPoint Id="FscsYpAmR7KOUR1JUUM95Q" Bounds="205,1244" Alignment="Bottom" />
               <ControlPoint Id="IJnp9hjOWW0Pww5YiUxvwW" Bounds="526,1244" Alignment="Bottom" />
@@ -4811,7 +4803,7 @@
                   <Pin Id="JsN6RQkx9idNOdh1vQnOJD" Name="Delay In Seconds" Kind="InputPin" />
                   <Pin Id="BPI8E456pUKNos6nVdLZmY" Name="Output" Kind="StateOutputPin" />
                 </Node>
-                <Node Bounds="325,386,77,136" Id="IdmrgsppJopLAFzPaAvA8d">
+                <Node Bounds="301,267,354,285" Id="IdmrgsppJopLAFzPaAvA8d">
                   <p:NodeReference LastCategoryFullName="System.Resources" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="OperationCallFlag" Name="BindNew" />
                     <CategoryReference Kind="Category" Name="Resources" NeedsToBeDirectParent="true" />
@@ -4822,24 +4814,83 @@
                   <Patch Id="O8vrtAr6tcvLieLwm1Ikn8" Name="Select" ManuallySortedPins="true">
                     <Pin Id="Nw2I7rCx171NvFe7Pj4cH6" Name="Input" Kind="InputPin" />
                     <Pin Id="S62cSVpLakXPGBB2kRT2uj" Name="Result" Kind="OutputPin" />
-                    <ControlPoint Id="IT2eWKgvpT7QHHzftezgKl" Bounds="339,394" />
-                    <ControlPoint Id="Hy9GRk0Nu9zP5tAmJRY3AB" Bounds="338,515" />
-                    <Node Bounds="337,416,46,26" Id="RiOfrNFbRk1NXBflE1pKCG">
-                      <p:NodeReference LastCategoryFullName="Devices.Nuitrack.NuitrackDevice.Sensors" LastSymbolSource="VL.Devices.NuiTrack.vl">
-                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <CategoryReference Kind="ClassType" Name="Sensors" />
-                        <Choice Kind="OperationCallFlag" Name="Create" />
+                    <ControlPoint Id="IT2eWKgvpT7QHHzftezgKl" Bounds="317,275" />
+                    <ControlPoint Id="Hy9GRk0Nu9zP5tAmJRY3AB" Bounds="338,545" />
+                    <Node Bounds="324,423,195,99" Id="APMvQkIo6uBMReHCpYeKOs">
+                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                        <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                        <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                        <FullNameCategoryReference ID="Primitive" />
                       </p:NodeReference>
-                      <Pin Id="FVyvAEPGwLYOnT8Np6eOVq" Name="Output" Kind="StateOutputPin" />
+                      <Pin Id="BzN0yatgnrzOUVDlYhyWBo" Name="Condition" Kind="InputPin" DefaultValue="True">
+                        <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                          <Choice Kind="TypeFlag" Name="Boolean" />
+                        </p:TypeAnnotation>
+                      </Pin>
+                      <Patch Id="Tpmbz9T7Ug9QUfdR9VqJHy" ManuallySortedPins="true">
+                        <Patch Id="B2GRdz8Y3IVOMGRcLxQp2J" Name="Create" ManuallySortedPins="true" />
+                        <Patch Id="NNXKv3YJK1tOvaRDzqBDg3" Name="Then" ManuallySortedPins="true" />
+                        <Node Bounds="337,446,46,26" Id="RiOfrNFbRk1NXBflE1pKCG">
+                          <p:NodeReference LastCategoryFullName="Devices.Nuitrack.NuitrackDevice.Sensors" LastSymbolSource="VL.Devices.NuiTrack.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Sensors" />
+                            <Choice Kind="OperationCallFlag" Name="Create" />
+                          </p:NodeReference>
+                          <Pin Id="FVyvAEPGwLYOnT8Np6eOVq" Name="Output" Kind="StateOutputPin" />
+                        </Node>
+                        <Node Bounds="337,476,53,26" Id="Pl6jefelQl4Mt8omrY1ADW">
+                          <p:NodeReference LastCategoryFullName="Devices.Nuitrack.NuitrackDevice.Sensors" LastSymbolSource="VL.Devices.NuiTrack.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="ClassType" Name="Sensors" />
+                            <Choice Kind="OperationCallFlag" Name="Activate" />
+                          </p:NodeReference>
+                          <Pin Id="JkhbAbhVw94Qd54qQa5QAB" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="EPvqeWoYTzlMr6ZstD9EMB" Name="Output" Kind="StateOutputPin" />
+                        </Node>
+                      </Patch>
+                      <ControlPoint Id="IZV7I0PoiAWQWChinyGdcN" Bounds="338,516" Alignment="Bottom" />
+                      <ControlPoint Id="D74K7CrjSQCPaNsBiHTag0" Bounds="338,431" Alignment="Top" />
+                      <ControlPoint Id="ChfwKnweZl6MygS0qJ6Asq" Bounds="502,431" Alignment="Top" />
+                      <ControlPoint Id="Bbe0dt3KV6jPchF4iQrsI5" Bounds="479,516" Alignment="Bottom" />
                     </Node>
-                    <Node Bounds="337,461,53,26" Id="Pl6jefelQl4Mt8omrY1ADW">
-                      <p:NodeReference LastCategoryFullName="Devices.Nuitrack.NuitrackDevice.Sensors" LastSymbolSource="VL.Devices.NuiTrack.vl">
-                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <CategoryReference Kind="ClassType" Name="Sensors" />
-                        <Choice Kind="OperationCallFlag" Name="Activate" />
+                    <Node Bounds="374,299,269,112" Id="I0zV0MHXxYALfuBLArPezU">
+                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                        <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                        <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                        <CategoryReference Kind="Category" Name="Primitive" />
                       </p:NodeReference>
-                      <Pin Id="JkhbAbhVw94Qd54qQa5QAB" Name="Input" Kind="StateInputPin" />
-                      <Pin Id="EPvqeWoYTzlMr6ZstD9EMB" Name="Output" Kind="StateOutputPin" />
+                      <Pin Id="NIlBmch2fo1La7pOnk0O37" Name="Condition" Kind="InputPin" DefaultValue="True">
+                        <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                          <Choice Kind="TypeFlag" Name="Boolean" />
+                        </p:TypeAnnotation>
+                      </Pin>
+                      <Patch Id="J11LP2O6RWaOKOlNQC9rOo" ManuallySortedPins="true">
+                        <Patch Id="EaKeGv42zQwQOURlUX0axW" Name="Create" ManuallySortedPins="true" />
+                        <Patch Id="R2y26taxBypPQlJ45bfK8C" Name="Then" ManuallySortedPins="true" />
+                        <Node Bounds="388,355,85,19" Id="OKy9YwzUIIuOB2H9zK2lKt">
+                          <p:NodeReference LastCategoryFullName="nuitrack.Nuitrack" LastSymbolSource="nuitrack.net.dll">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <Choice Kind="OperationCallFlag" Name="SetConfigValue" />
+                          </p:NodeReference>
+                          <Pin Id="UndwOQDmcJuL8WH8Pjglax" Name="Key" Kind="InputPin" />
+                          <Pin Id="UbEokTZYHDIM5w5KpqjANf" Name="Value" Kind="InputPin" />
+                        </Node>
+                        <Pad Id="OqbE3nhYsq3LlxssyYzk6r" Comment="Key" Bounds="390,327,127,-3" ShowValueBox="true" isIOBox="true" Value="Settings.IPAddress">
+                          <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                            <Choice Kind="TypeFlag" Name="String" />
+                          </p:TypeAnnotation>
+                        </Pad>
+                        <Pad Id="KemNvLGIcw4OlPzTideqEO" Comment="execution order" Bounds="502,363,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+                          <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                            <Choice Kind="TypeFlag" Name="Boolean" />
+                          </p:TypeAnnotation>
+                          <p:ValueBoxSettings>
+                            <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+                          </p:ValueBoxSettings>
+                        </Pad>
+                      </Patch>
+                      <ControlPoint Id="FZd3GhDpLidQM3ar9C2XOK" Bounds="502,406" Alignment="Bottom" />
+                      <ControlPoint Id="SWCXKH13lxhNSgJ7seyW8F" Bounds="502,306" Alignment="Top" />
                     </Node>
                   </Patch>
                 </Node>
@@ -4956,9 +5007,11 @@
                 </Node>
                 <ControlPoint Id="FS4E3tOKTmTLUpOmzc85Ee" Bounds="124,663" />
               </Patch>
+              <ControlPoint Id="BoP3bYtZb8IP796SU7sBEK" Bounds="502,254" Alignment="Top" />
+              <ControlPoint Id="H7Xt4JFQElONF6LmWYZlMd" Bounds="587,254" Alignment="Top" />
             </Node>
-            <ControlPoint Id="ASXuieMfuhDMKTdNbdMwbn" Bounds="671,328" />
-            <ControlPoint Id="KCCCpXWDn52LfIwQFCGrX9" Bounds="1634,325" />
+            <ControlPoint Id="ASXuieMfuhDMKTdNbdMwbn" Bounds="674,148" />
+            <ControlPoint Id="KCCCpXWDn52LfIwQFCGrX9" Bounds="1634,145" />
             <Node Bounds="75,1281,45,19" Id="VVu9snE7l0UNpfFOaM8iLU">
               <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -5027,7 +5080,7 @@
             </Node>
             <ControlPoint Id="Svi1V1IdFB8MqyE1jvRWzm" Bounds="2108,1245" />
             <Pad Id="PloaaX34e3yOjkFmrrO8gL" Bounds="2108,1269" />
-            <Node Bounds="323,103,174,178" Id="FoFvt4flq6GPkeSEOyr56p">
+            <Node Bounds="301,29,174,178" Id="FoFvt4flq6GPkeSEOyr56p">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.Experimental.vl">
                 <Choice Kind="OperationCallFlag" Name="SingleInstance" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -5041,8 +5094,8 @@
               <Pin Id="HXLpYOlR2giL9HNYsRPY7H" Name="Singleton" Kind="OutputPin" />
               <Patch Id="KJnzGBSKQu2PyIZ1IU0gom" Name="Producer" ManuallySortedPins="true">
                 <Pin Id="LjVaRyU7NPKNNPX0Z40gbf" Name="API Provider" Kind="OutputPin" />
-                <ControlPoint Id="D6RxBb32k8XMDhEsjYvoXP" Bounds="364,274" />
-                <Node Bounds="362,123,123,75" Id="DLbyBJ7anXeMfMZhYM4mMJ">
+                <ControlPoint Id="D6RxBb32k8XMDhEsjYvoXP" Bounds="342,200" />
+                <Node Bounds="340,49,123,75" Id="DLbyBJ7anXeMfMZhYM4mMJ">
                   <p:NodeReference LastCategoryFullName="Reactive.Observable" LastSymbolSource="VL.Reactive.vl">
                     <CategoryReference Kind="ImmutableInterfaceType" Name="Observable" />
                     <Choice Kind="OperationCallFlag" Name="Loop" />
@@ -5069,10 +5122,10 @@
                       </Pin>
                       <Pin Id="UeXYfSVMfBkM9s3Gy5IBUF" Name="Input 2" Kind="InputPin" />
                     </Patch>
-                    <ControlPoint Id="VOhPubnIF3OObINSgjf3B6" Bounds="366,131" />
-                    <ControlPoint Id="RaacbycttC9NGAlPdasn4c" Bounds="426,131" />
-                    <Node Bounds="381,159,92,19" Id="SqlIStZFgSjNBxsewGU9fJ">
-                      <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                    <ControlPoint Id="VOhPubnIF3OObINSgjf3B6" Bounds="344,57" />
+                    <ControlPoint Id="RaacbycttC9NGAlPdasn4c" Bounds="404,57" />
+                    <Node Bounds="359,85,92,19" Id="SqlIStZFgSjNBxsewGU9fJ">
+                      <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="NuitrackContext" />
                       </p:NodeReference>
@@ -5080,7 +5133,7 @@
                     </Node>
                   </Patch>
                 </Node>
-                <Node Bounds="362,212,60,26" Id="Hk8TCIlxIegPe20SOC2gqC">
+                <Node Bounds="340,138,60,26" Id="Hk8TCIlxIegPe20SOC2gqC">
                   <p:NodeReference LastCategoryFullName="Reactive.Observable" LastSymbolSource="VL.Reactive.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="ImmutableInterfaceType" Name="Observable" />
@@ -5091,7 +5144,7 @@
                 </Node>
               </Patch>
             </Node>
-            <Pad Id="JntPpCMbKsLPH7aKNPmiGu" Bounds="310,63,247,19" ShowValueBox="true" isIOBox="true" Value="Nuitrack can't deal with multiple devices">
+            <Pad Id="JntPpCMbKsLPH7aKNPmiGu" Bounds="288,-11,247,19" ShowValueBox="true" isIOBox="true" Value="Nuitrack can't deal with multiple devices">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -5100,7 +5153,9 @@
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
               </p:ValueBoxSettings>
             </Pad>
-            <Pad Id="NAcq3wSzKonLP1V4lzimYU" Bounds="325,334" />
+            <Pad Id="NAcq3wSzKonLP1V4lzimYU" Bounds="303,230" />
+            <ControlPoint Id="PRWseJd6gWQM34Hu9u8Kyi" Bounds="503,79" />
+            <ControlPoint Id="FY8T65DaGD9LJnkXUjaVOP" Bounds="587,79" />
           </Canvas>
           <Patch Id="VpnYQkcxoMNQGZYwOGUxxS" Name="Create (Internal)" ParticipatingElements="FoFvt4flq6GPkeSEOyr56p" />
           <ProcessDefinition Id="B8uvTcvab9wOiB86Ctv8SW" HasStateOut="true">
@@ -5124,6 +5179,16 @@
             <Pin Id="EiLb6fRuXyQLz2v8YtrqVs" Name="Enabled" Kind="InputPin" DefaultValue="True">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="BsYc6lnaUKFQNmQw6hkGsk" Name="Use IP" Kind="InputPin" Bounds="503,82" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="RIYqTuJJwmKOwP6UgDmTbD" Name="IP Address" Kind="InputPin" Bounds="584,79" DefaultValue="192.168.1.100">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
@@ -5198,7 +5263,6 @@
           <Link Id="MXsIWQmW2NaPG8fFei1UcS" Ids="BPI8E456pUKNos6nVdLZmY,PqkIb8SmlzvNYc2DXAPu22" />
           <Link Id="Oz6UKYQXmgpLCdi0HP6Nnu" Ids="Nw2I7rCx171NvFe7Pj4cH6,IT2eWKgvpT7QHHzftezgKl" IsHidden="true" />
           <Link Id="I4QnZdNxQflMru4VrWZK8j" Ids="Hy9GRk0Nu9zP5tAmJRY3AB,S62cSVpLakXPGBB2kRT2uj" IsHidden="true" />
-          <Link Id="TmS1ZshMg5FMQgDKCYrMbe" Ids="FVyvAEPGwLYOnT8Np6eOVq,JkhbAbhVw94Qd54qQa5QAB" />
           <Link Id="J8UePU6hgQIPfRSbQzp9u5" Ids="HY9GB5dy9IFMcHWuZpte8z,JErrQTtuXKFL69HPlhsLEO" />
           <Link Id="Hiw9aSU422ZN7WezC4uYM6" Ids="FSo57caARn2LgvuXw3s9l5,GbTY7IwrtZXP7Ee2pcKzRX" />
           <Link Id="NLcB3gaYBZTOcVAcbAXo6h" Ids="HY9GB5dy9IFMcHWuZpte8z,Mx3aXHyS5QRNPzLiSAoDrF" />
@@ -5206,7 +5270,6 @@
           <Link Id="RCMxpg7fXWZPJHpzd5oTRq" Ids="HY9GB5dy9IFMcHWuZpte8z,LFQ13q6dBjQQHLzR6FKly2" />
           <Link Id="CDtWiI4aEACOHsZrrTNh62" Ids="HY9GB5dy9IFMcHWuZpte8z,MlfyUw6Gi7MLOjtSkdCzBu" />
           <Link Id="BjGjL49V113LbJW9PTZ8eZ" Ids="PV5UYPGnsV1OqX4A1wWr1z,T97AJfueuZqPlfGhQfN6eU" />
-          <Link Id="E50cks0ER7TPSCEDmIGyzJ" Ids="EPvqeWoYTzlMr6ZstD9EMB,Hy9GRk0Nu9zP5tAmJRY3AB" />
           <Link Id="JkBrgkmrr0CPESfo2s0lPD" Ids="GnsBi34ODEMOx2HDhF2IBU,LTRiyOElyfoPmH05RzkxYC" />
           <Link Id="Vy0vOk92Bn2NYbDGWFQvNL" Ids="LdjkZxa4AuhMgjxUWYwxuv,IhwZu1nepTvM7ycbKyfLdb" />
           <Link Id="CNwkSSgdkquNTnbXzAQziC" Ids="KmFK4gDJHqRMpDCUTpgrV0,Gn1rvcZUh6DNL7w3yIuU3z" />
@@ -5274,6 +5337,21 @@
           <Link Id="J79oUOsPpQ8MndKtkpSbVl" Ids="Mo8orpSAZZOLoQSikm2AT8,DNlL9G5UvfcNPeHYl6fuSF" />
           <Link Id="LvJCte82RSeOjybHJUKAHa" Ids="HK0CLx3AbHVPYOXsletLEj,PwmXvdw0mXlQAP0Gd82jgj" />
           <Link Id="R76YYVx28O5Pm2X2xiNHap" Ids="HK0CLx3AbHVPYOXsletLEj,UzrxrWVTVLVMZlatCp29Ci" />
+          <Link Id="TmS1ZshMg5FMQgDKCYrMbe" Ids="FVyvAEPGwLYOnT8Np6eOVq,JkhbAbhVw94Qd54qQa5QAB" />
+          <Link Id="CfxiDYEF4zyPTmAf0hHJhg" Ids="D74K7CrjSQCPaNsBiHTag0,IZV7I0PoiAWQWChinyGdcN" IsFeedback="true" />
+          <Link Id="QQzjt12Cmd1OIBGfBsEgw1" Ids="EPvqeWoYTzlMr6ZstD9EMB,IZV7I0PoiAWQWChinyGdcN" />
+          <Link Id="L3uc3JP0nPUMJKCxYGoSfG" Ids="IZV7I0PoiAWQWChinyGdcN,Hy9GRk0Nu9zP5tAmJRY3AB" />
+          <Link Id="KYzcRBREv7sOsoVZi5zgZO" Ids="BoP3bYtZb8IP796SU7sBEK,NIlBmch2fo1La7pOnk0O37" />
+          <Link Id="GzPF9w87PzKL42uUk1zpL9" Ids="PRWseJd6gWQM34Hu9u8Kyi,BoP3bYtZb8IP796SU7sBEK" />
+          <Link Id="M2e3I3SKRKnPJ9Qx4wEnyu" Ids="BsYc6lnaUKFQNmQw6hkGsk,PRWseJd6gWQM34Hu9u8Kyi" IsHidden="true" />
+          <Link Id="OorE6elAgsILB5LG1zNaOp" Ids="H7Xt4JFQElONF6LmWYZlMd,UbEokTZYHDIM5w5KpqjANf" />
+          <Link Id="FEAkD5RUy3YPB9CUWRgGtc" Ids="FY8T65DaGD9LJnkXUjaVOP,H7Xt4JFQElONF6LmWYZlMd" />
+          <Link Id="NpMFeOOfnnZMDdURZFvsfg" Ids="RIYqTuJJwmKOwP6UgDmTbD,FY8T65DaGD9LJnkXUjaVOP" IsHidden="true" />
+          <Link Id="FTzAWNtiAwELAEXAG69531" Ids="OqbE3nhYsq3LlxssyYzk6r,UndwOQDmcJuL8WH8Pjglax" />
+          <Link Id="PsCiGeXZkBRNXNOuJgTHUP" Ids="SWCXKH13lxhNSgJ7seyW8F,FZd3GhDpLidQM3ar9C2XOK" IsFeedback="true" />
+          <Link Id="KvGW0FgeB04MdnYDqrK9zh" Ids="KemNvLGIcw4OlPzTideqEO,FZd3GhDpLidQM3ar9C2XOK" />
+          <Link Id="JqE9iVYvUnYPOAidsRddr3" Ids="ChfwKnweZl6MygS0qJ6Asq,Bbe0dt3KV6jPchF4iQrsI5" IsFeedback="true" />
+          <Link Id="KR6QSeZoGAkPvBJn093bIJ" Ids="FZd3GhDpLidQM3ar9C2XOK,ChfwKnweZl6MygS0qJ6Asq" />
         </Patch>
       </Node>
       <!--
@@ -5506,7 +5584,7 @@
                 </Node>
                 <Link Id="VFjfuk9eLf0LKCE0KkxYRn" Ids="Guuvl8LqGGfNvcJNlPRaRy,Sm82wttq6CBMM2IWfFDhi1" />
                 <Node Bounds="607,468,16,19" Id="Kwj1od07yl8PDnVl6ADY3k">
-                  <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                  <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="FromVector3" />
                   </p:NodeReference>
@@ -5591,7 +5669,7 @@
                 </Node>
                 <Link Id="EjkrjsCvf7bPu0hVcveS7L" Ids="F7fGugBg8DKOubieHpa9LW,NBeUnpmZuqzMxeq0pQWQEy" />
                 <Node Bounds="595,721,75,19" Id="K5F5wC8mp9IPg0ffwIKqpN">
-                  <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                  <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="FromVector3" />
                   </p:NodeReference>
@@ -6067,7 +6145,7 @@
           <Canvas Id="IKlJWl00RhFMJc7u1reXhp" CanvasType="Group">
             <ControlPoint Id="PjWrREeOe2QQKXXF2uArXD" Bounds="461,256" />
             <Node Bounds="459,292,56,26" Id="BAKGiQXhEBQNL4Sl2Pqv8O">
-              <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+              <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="GetUserData" />
               </p:NodeReference>
@@ -6455,7 +6533,7 @@
               <Pin Id="Ggwy71VBky0QL0Pvn4b20v" Name="Input 5" Kind="InputPin" />
             </Node>
             <Node Bounds="969,424,353,297" Id="T6sf8Hz2YofLQWpKmTyvo6">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="If" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -6467,7 +6545,7 @@
                 <Patch Id="LGPeyfB3jPcODzVA8KA0Wa" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="D81TmxBc8ucO4WqXeWRh86" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="1028,436,303,266" Id="HHFookydKirOywCFbbQJeW">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -6475,6 +6553,7 @@
                   <Pin Id="O9WJ9EUbvYOO64hcN8kUTZ" Name="Break" Kind="OutputPin" />
                   <ControlPoint Id="SGFwKAFBeQqPSlFoXGZGkg" Bounds="1163,456" Alignment="Top" />
                   <ControlPoint Id="EfWEiBNYAsrMSxut95sljM" Bounds="1049,695" Alignment="Bottom" />
+                  <ControlPoint Id="AyDvKAn7NnOMYaseBmPnxk" Bounds="1220,456" Alignment="Top" />
                   <Patch Id="RvJQrLGw4NEPE5ulczRddR" ManuallySortedPins="true">
                     <Patch Id="K9oBEuJBDYjOpBGPo3YxlL" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="DLrY5CDtIqtM4nVCpa2Oyq" Name="Update" ManuallySortedPins="true" />
@@ -6488,11 +6567,7 @@
                         </CategoryReference>
                       </p:NodeReference>
                       <Pin Id="AB90I0PnmvcPj4MSbjFRTN" Name="Position" Kind="InputPin" />
-                      <Pin Id="V39avT0oLXiPRwOf8NX863" Name="Size" Kind="InputPin">
-                        <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
-                          <Choice Kind="TypeFlag" Name="Vector3" />
-                        </p:TypeAnnotation>
-                      </Pin>
+                      <Pin Id="V39avT0oLXiPRwOf8NX863" Name="Size" Kind="InputPin" />
                       <Pin Id="UgDuX6sMvXePQq43pOZGGm" Name="Stroke Width" Kind="InputPin" DefaultValue="0.01">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                           <Choice Kind="TypeFlag" Name="Float32" />
@@ -6572,12 +6647,11 @@
                       </p:TypeAnnotation>
                     </Pad>
                   </Patch>
-                  <ControlPoint Id="AyDvKAn7NnOMYaseBmPnxk" Bounds="1220,456" Alignment="Top" />
                 </Node>
               </Patch>
             </Node>
             <Node Bounds="1368,443,346,288" Id="AajnvUiN4pBNkbaAM00q1K">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="If" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -6589,13 +6663,16 @@
                 <Patch Id="CWazRCaEkHJOi5zhgatAh8" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="FSJZ2VJzxhpORZRReVqfeK" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="1420,466,262,244" Id="Qr7Sv1dBvr6O5entQ260yy">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                     <FullNameCategoryReference ID="Primitive" />
                   </p:NodeReference>
                   <Pin Id="LZbc0d62xhvPrJ506LM9bO" Name="Break" Kind="OutputPin" />
                   <ControlPoint Id="Iufn86RdpyjQHRreu2WmpJ" Bounds="1450,704" Alignment="Bottom" />
+                  <ControlPoint Id="PqSLFdeI4XYNeiTJzsTv3M" Bounds="1434,473" Alignment="Top" />
+                  <ControlPoint Id="Qtrh64ktkHmPPtj1AATRwX" Bounds="1562,473" Alignment="Top" />
+                  <ControlPoint Id="S83jTmKFOAXPOne0qO2p5E" Bounds="1633,473" Alignment="Top" />
                   <Patch Id="EaxwcoFPlPyOanysxBz6rO" ManuallySortedPins="true">
                     <Patch Id="R2obQEAqESsNrI7mCRARxC" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="VSx0FRZHQzyQLqkZQkjJqw" Name="Update" ManuallySortedPins="true" />
@@ -6650,11 +6727,7 @@
                           <p:OuterCategoryReference Kind="Category" Name="Skia3d" NeedsToBeDirectParent="true" />
                         </CategoryReference>
                       </p:NodeReference>
-                      <Pin Id="AD5LZcOaYO5LSxqezZ237K" Name="Position" Kind="InputPin">
-                        <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
-                          <Choice Kind="TypeFlag" Name="Vector3" />
-                        </p:TypeAnnotation>
-                      </Pin>
+                      <Pin Id="AD5LZcOaYO5LSxqezZ237K" Name="Position" Kind="InputPin" />
                       <Pin Id="PWeATBP7eljNTLu9wayoVh" Name="Text" Kind="InputPin" />
                       <Pin Id="VL3apm2tBsmOcj2mQ2RxYb" Name="Family Name" Kind="InputPin" />
                       <Pin Id="RKcD92qGthtOHrgxxSGnZ3" Name="Style" Kind="InputPin" />
@@ -6699,14 +6772,11 @@
                       <Pin Id="PT6dDXWgSuiO7eL925qlSw" Name="Output" Kind="StateOutputPin" />
                     </Node>
                   </Patch>
-                  <ControlPoint Id="PqSLFdeI4XYNeiTJzsTv3M" Bounds="1434,473" Alignment="Top" />
-                  <ControlPoint Id="Qtrh64ktkHmPPtj1AATRwX" Bounds="1562,473" Alignment="Top" />
-                  <ControlPoint Id="S83jTmKFOAXPOne0qO2p5E" Bounds="1633,473" Alignment="Top" />
                 </Node>
               </Patch>
             </Node>
             <Node Bounds="-14,411,840,359" Id="DhIxWABY1M0PqnA4Pjf6pT">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="If" />
                 <FullNameCategoryReference ID="Primitive" />
@@ -6722,7 +6792,7 @@
                 <Patch Id="FEr4Dl77D2wOC2LE2OvCDy" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="Nf1y3KuUCSiMjsLTfAi9oG" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="92,464,736,263" Id="ABIXYsS8XjsPk6zd8DDfDz">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="If" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -6738,7 +6808,7 @@
                     <Patch Id="KVxgrsilu3GNSsH0x58ogE" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="OFiIowEp9zAO5MGloGmZ52" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="144,518,129,175" Id="D5dhePCViZfPWBzAoM3Wmv">
-                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                         <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                         <CategoryReference Kind="Category" Name="Primitive" />
@@ -6759,18 +6829,14 @@
                           <Pin Id="SmOCBZS37wzL8N8f3HaFAO" Name="Translation" Kind="InputPin" />
                           <Pin Id="SOh8cZkneYZNogd3Ew9ljd" Name="Rotation" Kind="InputPin" />
                           <Pin Id="AnCAeGpsIJCOaxJQMvIKRP" Name="Length" Kind="InputPin" />
-                          <Pin Id="C8LSLLVYfw4PysguMewokJ" Name="Direction" Kind="InputPin">
-                            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                              <Choice Kind="TypeFlag" Name="Boolean" />
-                            </p:TypeAnnotation>
-                          </Pin>
+                          <Pin Id="C8LSLLVYfw4PysguMewokJ" Name="Direction" Kind="InputPin" />
                           <Pin Id="Dji9ZEw5JXWNmzunJlnBku" Name="Color" Kind="InputPin" />
                           <Pin Id="LP3tAWaOGeAL2LUX1owgGW" Name="Stroke Width" Kind="InputPin" />
                           <Pin Id="JKSDGalJQ60MPAJ5WfufU7" Name="Thickness" Kind="InputPin" />
                           <Pin Id="H7Z5xJjk0LdLMFSM7qP4Fu" Name="Output" Kind="OutputPin" />
                         </Node>
                         <Node Bounds="164,545,54,19" Id="TymO0bZ1t1vQEd2KZ2jRvG">
-                          <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Boxman" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                          <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Boxman" LastSymbolSource="VL.Devices.NuiTrack.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="GetBone" />
                           </p:NodeReference>
@@ -6784,7 +6850,7 @@
                       </Patch>
                     </Node>
                     <Node Bounds="405,506,150,199" Id="BctvhpWYJQJOAtZthOEwUA">
-                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                         <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                         <CategoryReference Kind="Category" Name="Primitive" />
@@ -6838,7 +6904,7 @@
                           <Pin Id="KQoHC4JRTtHMO7D3AWXCqU" Name="Result" Kind="OutputPin" />
                         </Node>
                         <Node Bounds="417,563,54,19" Id="RLw2PXzYgnIMjrjLzt6Hwl">
-                          <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Boxman" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                          <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Boxman" LastSymbolSource="VL.Devices.NuiTrack.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="GetBone" />
                           </p:NodeReference>
@@ -6852,7 +6918,7 @@
                       </Patch>
                     </Node>
                     <Node Bounds="647,524,169,144" Id="OEFQgtou492PGoKGO7YrHm">
-                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                         <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                         <CategoryReference Kind="Category" Name="Primitive" />
@@ -6884,7 +6950,7 @@
                           <Pin Id="EEfzm1ueT4jLTMdyyIYh1s" Name="Output" Kind="OutputPin" />
                         </Node>
                         <Node Bounds="659,559,54,19" Id="E6PHip9iXFULF7qumzo7w7">
-                          <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Boxman" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                          <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Boxman" LastSymbolSource="VL.Devices.NuiTrack.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="GetBone" />
                           </p:NodeReference>
@@ -7062,7 +7128,7 @@
             <Pin Id="AXofDLFQURjNuHZxJN6To4" Name="Output" Kind="OutputPin" Bounds="742,992" />
             <Link Id="IMpt7hG9DG0MtACTX3f679" Ids="BMByCFb4AnJQTnBcu7OyRI,AXofDLFQURjNuHZxJN6To4" IsHidden="true" />
             <Node Bounds="180,347,67,26" Id="NkUMLKPmAIbNEF3YSmI7yJ">
-              <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+              <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="GetSensors" />
               </p:NodeReference>
@@ -7101,7 +7167,7 @@
                   <Pin Id="EFQj2fWyn4tL4U3irEob9g" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="373,456,75,19" Id="SRZOUj1tpMuNdaIrOQxzaW">
-                  <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                  <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="FromVector3" />
                   </p:NodeReference>
@@ -7164,7 +7230,7 @@
             <Pin Id="G1Ro0YdtXa2MQp8ZKQFSYI" Name="Output" Kind="OutputPin" Bounds="742,992" />
             <Link Id="HTNfDmVBicsQa2fE5WrB8T" Ids="OCagX6Z71h3O7RPUpyBrM1,G1Ro0YdtXa2MQp8ZKQFSYI" IsHidden="true" />
             <Node Bounds="528,345,67,26" Id="AcKeyOLM9FTNtYOpcTHSXk">
-              <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+              <p:NodeReference LastCategoryFullName="Devices.Nuitrack.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="GetSensors" />
               </p:NodeReference>
@@ -7187,7 +7253,7 @@
                 <ControlPoint Id="AVCITonlubFP0mcZ19VEXi" Bounds="589,404" />
                 <ControlPoint Id="IXJlqma0lakNNDvLV6DBHv" Bounds="723,570" />
                 <Node Bounds="721,454,75,19" Id="EzX8Z7FMKZ7NFbA2BNqq85">
-                  <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.Nuitrack.vl">
+                  <p:NodeReference LastCategoryFullName="Devices.Nuitrack" LastSymbolSource="VL.Devices.NuiTrack.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="FromVector3" />
                   </p:NodeReference>
@@ -7270,11 +7336,11 @@
   </Patch>
   <PlatformDependency Id="S36JEFIXXVvMre7qt6H783" Location="System" />
   <PlatformDependency Id="JMvORQOQIzrPEj9eCKbrF5" Location="System.Runtime" />
-  <NugetDependency Id="K4ICfeTj9dxLVvHqmGPgT9" Location="VL.Core" Version="2020.1.3" />
+  <NugetDependency Id="K4ICfeTj9dxLVvHqmGPgT9" Location="VL.Core" Version="2021.3.1" />
   <PlatformDependency Id="BUpgGtLZTuWOOQIIwQPuZE" Location="System.Runtime.InteropServices" />
   <PlatformDependency Id="FT9TxKi4fH0QMBKSVmLjbM" Location="./lib/net461/nuitrack.net.dll" />
   <PlatformDependency Id="Tx5Ww8gDWCSLqouiypeaQ1" Location="./lib/net461/VL.Devices.Nuitrack.dll" />
   <PlatformDependency Id="MmpchLHE9RKMMqV6sBUOtt" Location="../VL.Devices.AzureKinect/src/bin/x64/Debug/System.Reactive.dll" />
-  <NugetDependency Id="KxJ5UKtGQyPNJwqWr8RV8X" Location="VL.Skia3d" Version="0.0.0.0" />
-  <NugetDependency Id="PSwK5UQopp7PUoLLae2LXA" Location="VL.Skia" Version="2020.1.3" />
+  <NugetDependency Id="KxJ5UKtGQyPNJwqWr8RV8X" Location="VL.Skia3d" Version="1.1.1" />
+  <NugetDependency Id="PSwK5UQopp7PUoLLae2LXA" Location="VL.Skia" Version="2021.3.1" />
 </Document>
