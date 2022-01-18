@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="LIEtYdrRy3kPqelydP6a1l" LanguageVersion="2021.4.3.736" Version="0.128">
-  <NugetDependency Id="EEYSk9rCs8TLQ1HUJFqHly" Location="VL.CoreLib" Version="2021.4.3" />
+<Document xmlns:p="property" Id="LIEtYdrRy3kPqelydP6a1l" LanguageVersion="2021.4.4.747" Version="0.128">
+  <NugetDependency Id="EEYSk9rCs8TLQ1HUJFqHly" Location="VL.CoreLib" Version="2021.4.4" />
   <Patch Id="OF6M52TF0g1MIvRz41ucGu">
     <Canvas Id="Ue7xuqlBZHlLeRL5dLjZsS" DefaultCategory="Devices.Nuitrack" CanvasType="FullCategory">
       <Canvas Id="SU0RLJl3a2TP488puPQtMW" Name="Internal" Position="297,251">
@@ -1823,7 +1823,7 @@
     ************************ Orient ************************
 
 -->
-              <Node Name="Orient" Bounds="620,102,304,539" Id="KXymahSbr9tL4qdHM4ojr5">
+              <Node Name="Orient" Bounds="620,102,521,539" Id="KXymahSbr9tL4qdHM4ojr5">
                 <p:NodeReference>
                   <Choice Kind="OperationDefinition" Name="Operation" />
                   <FullNameCategoryReference ID="Primitive" />
@@ -1982,6 +1982,55 @@
                   <Link Id="RSOTYrSWa7GPutMAE49lqM" Ids="CxRhT0vcigyLdHI2l2BSid,EEK9mlSlaW3PtsUS6x5ZCJ" IsFeedback="true" />
                   <Link Id="CN3EYybrCEsMcpIr5orsYm" Ids="Sje6GQ023edPp5exM0ldbK,EEK9mlSlaW3PtsUS6x5ZCJ" />
                   <Link Id="NHkX4bOg6BcLnPjkJeG68Q" Ids="EEK9mlSlaW3PtsUS6x5ZCJ,VPnvy6wqVrdMjPIx0NaVAo" />
+                  <Node Bounds="1021,298,80,80" Id="G6iGXQTUu61NN1nyTw11VS">
+                    <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                      <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                      <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                      <CategoryReference Kind="Category" Name="Primitive" />
+                    </p:NodeReference>
+                    <Pin Id="GDtvIKRb7xEOYhee4xz5M5" Name="Condition" Kind="InputPin" />
+                    <Patch Id="SAiM0dLwopkMRZnTAik3hn" ManuallySortedPins="true">
+                      <Patch Id="NkoC5E4criEPjEiiFgmCre" Name="Create" ManuallySortedPins="true" />
+                      <Patch Id="NjoFIbHLbPJLPAeyEfUqJu" Name="Then" ManuallySortedPins="true" />
+                    </Patch>
+                    <ControlPoint Id="Qs59vRmJpF2N24ptLHX6vg" Bounds="1040,373" Alignment="Bottom" />
+                    <ControlPoint Id="D1LvHb71bg5PGGUvivfTeP" Bounds="1040,305" Alignment="Top" />
+                  </Node>
+                  <Link Id="UItASkooc8TMzW6EW17JVc" Ids="Ivved2F4Fp0Nk2942toZx6,GDtvIKRb7xEOYhee4xz5M5" />
+                  <Link Id="DNpJDBkhADyPjPsoOlFkQb" Ids="D1LvHb71bg5PGGUvivfTeP,Qs59vRmJpF2N24ptLHX6vg" IsFeedback="true" />
+                  <Link Id="AtED8GJVNaaPfekyAySMtb" Ids="TLR2UiSmVufOcnXuBQzzel,Qs59vRmJpF2N24ptLHX6vg" />
+                  <ControlPoint Id="Fbvg7axbGOOM5uTw7tSRc1" Bounds="986,443" />
+                  <Pin Id="MPvQr2JaM3FPOAKgQeMg1w" Name="Matrix" Kind="OutputPin" Bounds="996,395" />
+                  <Link Id="RVwhpMH1Uk3OAgRJZt2D5M" Ids="Fbvg7axbGOOM5uTw7tSRc1,MPvQr2JaM3FPOAKgQeMg1w" IsHidden="true" />
+                  <Node Bounds="1038,184,80,19" Id="S7wdSf7wR4oNFEn4C7fJe0">
+                    <p:NodeReference LastCategoryFullName="VL.Core.VLMath" LastSymbolSource="VL.Core.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="IdentityMatrix" />
+                    </p:NodeReference>
+                    <Pin Id="NnbZg1hOvxyMqFyrcVYRqw" Name="Identity Matrix" Kind="OutputPin" />
+                  </Node>
+                  <Node Bounds="1038,217,62,19" Id="NjoI98ibqz2Ns0x5QV0BF4">
+                    <p:NodeReference LastCategoryFullName="3D.Matrix" LastSymbolSource="CoreLibBasics.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="RecordType" Name="Matrix" />
+                      <Choice Kind="OperationCallFlag" Name="GetValues" />
+                    </p:NodeReference>
+                    <Pin Id="ARfh94od1dOMPOduL5z4cp" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="Db5CcdUTJM0LSvMJkBbczY" Name="Result" Kind="OutputPin" />
+                  </Node>
+                  <Link Id="BRtOgRdazGgNvPkAvPQUXv" Ids="NnbZg1hOvxyMqFyrcVYRqw,ARfh94od1dOMPOduL5z4cp" />
+                  <Node Bounds="1038,247,91,26" Id="O0ZYOaawPj3PgQwTxyM1sy">
+                    <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="GetInternalArray" />
+                      <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+                    </p:NodeReference>
+                    <Pin Id="V2zXADb65myMKhQrfcXRt4" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="FWie0vBAqOIO3rCR9V2pUD" Name="Result" Kind="OutputPin" />
+                  </Node>
+                  <Link Id="T8VH9jpmSuUMlOwDDOT7KQ" Ids="Db5CcdUTJM0LSvMJkBbczY,V2zXADb65myMKhQrfcXRt4" />
+                  <Link Id="KDrWei5nayoPl2RGGpTcPH" Ids="FWie0vBAqOIO3rCR9V2pUD,D1LvHb71bg5PGGUvivfTeP" />
+                  <Link Id="CuVZlGy9AxtON5Dyb3vMXa" Ids="Qs59vRmJpF2N24ptLHX6vg,Fbvg7axbGOOM5uTw7tSRc1" />
                 </Patch>
               </Node>
               <!--
@@ -2053,6 +2102,46 @@
                   <Pin Id="K0gPv4sra2mMhxmTbUPXxI" Name="Output" Kind="OutputPin" />
                 </Patch>
               </Node>
+              <!--
+
+    ************************ SetOrient ************************
+
+-->
+              <Node Name="SetOrient" Bounds="651,1036,370,226" Id="ANT1uVDqEpFPMQFRcYiArd">
+                <p:NodeReference>
+                  <Choice Kind="OperationDefinition" Name="Operation" />
+                  <FullNameCategoryReference ID="Primitive" />
+                </p:NodeReference>
+                <p:HideCategory p:Type="Boolean">false</p:HideCategory>
+                <Patch Id="B9ZiRSm08z2OfrgaJB9Qjx">
+                  <Node Bounds="825,1216,58,26" AutoConnect="true" Id="C8Uo11I3dvQLAmbMw3efSt">
+                    <p:NodeReference LastCategoryFullName="nuitrack.Joint" LastSymbolSource="nuitrack.net.dll">
+                      <Choice Kind="OperationNode" Name="SetOrient" />
+                      <FullNameCategoryReference ID="nuitrack.Joint" />
+                    </p:NodeReference>
+                    <Pin Id="I60GvVowa4xOyez0HHZKqT" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="MXcIPWRpgYpP44WBzeEpBj" Name="Value" Kind="InputPin" />
+                    <Pin Id="HVNDurXEiHhOOC8C9z4v9R" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                  <Node Bounds="872,1164,59,26" Id="Q811PWdbieHO4NgfhVZTFg">
+                    <p:NodeReference LastCategoryFullName="nuitrack.Orientation" LastSymbolSource="nuitrack.net.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="AssemblyCategory" Name="Orientation" />
+                      <Choice Kind="OperationCallFlag" Name="SetMatrix" />
+                    </p:NodeReference>
+                    <Pin Id="N1jD9B2j0XCNwi4ten59Dr" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="S2GWf3gxO0kQHI1SUQL9YV" Name="Value" Kind="InputPin" />
+                    <Pin Id="BcmpMo96pVJOXqHziMkAh4" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                  <Link Id="G2oBrTNpoNcLrpjn5ExtbL" Ids="BcmpMo96pVJOXqHziMkAh4,MXcIPWRpgYpP44WBzeEpBj" />
+                  <ControlPoint Id="PHv4wcqilKyLnvejhckf04" Bounds="926,1054" />
+                  <Link Id="UhQ4tbBwnFBQMZN8xeZ2Jo" Ids="DucYYwGLiwULjbZl1pyLXc,PHv4wcqilKyLnvejhckf04" IsHidden="true" />
+                  <Pin Id="IBhLJ2dvHYJMRwjZETjTeC" Name="Input" Kind="InputPin" />
+                  <Pin Id="DucYYwGLiwULjbZl1pyLXc" Name="Matrix Values" Kind="InputPin" />
+                  <Pin Id="E5KMVdkvX73Oj9K40uUpmP" Name="Output" Kind="OutputPin" />
+                  <Link Id="VsbJw5dWdeWMIJry6oUBEX" Ids="PHv4wcqilKyLnvejhckf04,S2GWf3gxO0kQHI1SUQL9YV" />
+                </Patch>
+              </Node>
             </Canvas>
             <ProcessDefinition Id="FDvbY0UUQvEQWtEnjVpnOs" IsHidden="true">
               <Fragment Id="G8bNEtdI192LwrFBvpw8lv" Patch="N1JrjK9y2uHPP5eRsJzYuk" />
@@ -2061,6 +2150,7 @@
               <Fragment Id="UQkxAl13XrDMYnvFTs52Ky" Patch="NbiSHi1sFgELkavEGjDetI" />
               <Fragment Id="BmhOdufrDI6LTDR1ADgJ0C" Patch="KXymahSbr9tL4qdHM4ojr5" />
               <Fragment Id="CdwCs6z8NIWQMIs47DIcQ3" Patch="Lz3gBhCHgHIN7kZZYzy5w3" />
+              <Fragment Id="DqH4knHRTk7Nck9WJNQcDs" Patch="ANT1uVDqEpFPMQFRcYiArd" />
             </ProcessDefinition>
           </Patch>
         </Node>
@@ -2600,6 +2690,7 @@
               <Pin Id="N5fBLtawVRcN1dL8fys8XR" Name="ID" Kind="OutputPin" />
               <Pin Id="HJeHvrmH3N9PYwzSd6eEwe" Name="Joint Positions" Kind="OutputPin" />
               <Pin Id="QJOyt859bGENSoGxAeaegk" Name="Joint Orientations" Kind="OutputPin" />
+              <Pin Id="TC5RhzYyJgUOSB3z9gXosM" Name="Matrix" Kind="OutputPin" />
               <Pin Id="AJMHjWdmqjEPDfj0fmTmgI" Name="Joint Types" Kind="OutputPin" />
               <Pin Id="Dca8ORAwxCsPLk9Ck3h1ge" Name="Joint Confidences" Kind="OutputPin" />
             </Node>
@@ -4154,10 +4245,14 @@
                           <Pin Id="USdWfYVsWykMVuoCbKhT4H" Name="Input" Kind="StateInputPin" />
                           <Pin Id="AJYNgHXUf3EPrSHQAgESGm" Name="Output" Kind="StateOutputPin" />
                           <Pin Id="JPIoTy7vdptL08Ojg7S9NU" Name="Orientation" Kind="OutputPin" />
+                          <Pin Id="S4QwLuCupMFNwgdpFZVxa0" Name="Matrix" Kind="OutputPin" />
                         </Node>
                       </Patch>
+                      <ControlPoint Id="PPbNJ1LuKDMK916XojZ1wB" Bounds="513,746" Alignment="Bottom" />
                     </Node>
                   </Patch>
+                  <ControlPoint Id="Rb0sWfqhvFbPwk18xlW6ta" Bounds="515,766" Alignment="Bottom" />
+                  <ControlPoint Id="MuYBAjAjkfmP4mnblftg0U" Bounds="515,544" Alignment="Top" />
                 </Node>
                 <Link Id="UF2cwyHelB6QUIaGwOCT23" Ids="VLC7Kg7eMijNirob6uw3le,O8l48y04dCSNJFNzIhDJLa" />
                 <Node Bounds="168,486,65,19" Id="KV7jiT3aGpGNG48ldNhmQT">
@@ -4202,15 +4297,22 @@
                 <ControlPoint Id="UiwO3eb0fPbLFlBpDYthe1" Bounds="584,806" />
                 <Link Id="HR5lb18xGRzP1Ca9ZKGVed" Ids="UiwO3eb0fPbLFlBpDYthe1,IdcDTjmHhkANsabMp310Zp" IsHidden="true" />
                 <Link Id="D1kvcyKkj5zPIh8khq4H45" Ids="KreNC6SLYR9NjHnHabdF0e,CbCbglZN6NsOMYV8x7iIvk" />
+                <Link Id="O9OOVNBW5WLOhlP6rUwmrq" Ids="IkE6GdT4ji0MyDHKBLEVfF,USdWfYVsWykMVuoCbKhT4H" />
+                <Link Id="QR99u4X67C9NKCmEF5dzau" Ids="AJYNgHXUf3EPrSHQAgESGm,NJABmNyMOpINrgb1mtdrVV" />
+                <Link Id="UoB0y0siLi0LxUnwUH2GxT" Ids="JPIoTy7vdptL08Ojg7S9NU,RA8ACDq1uShPKouswAfY78" />
+                <Link Id="TsvA26sa9ZXONTMfQkI9Yz" Ids="S4QwLuCupMFNwgdpFZVxa0,PPbNJ1LuKDMK916XojZ1wB" />
+                <Link Id="D6aEWBDCOrlLOkaHxsCGBU" Ids="MuYBAjAjkfmP4mnblftg0U,Rb0sWfqhvFbPwk18xlW6ta" IsFeedback="true" />
+                <Link Id="MNqzmhebOAjN8Dibt1HbJm" Ids="PPbNJ1LuKDMK916XojZ1wB,Rb0sWfqhvFbPwk18xlW6ta" />
+                <Link Id="K17BO94vjV7Pyjjc4wNOJk" Ids="Rb0sWfqhvFbPwk18xlW6ta,SlNAfrsAo30NHGcT8fFs8f" />
+                <ControlPoint Id="SlNAfrsAo30NHGcT8fFs8f" Bounds="517,792" />
+                <Link Id="CIiegLc3QN3OJri712MaKt" Ids="SlNAfrsAo30NHGcT8fFs8f,Cu9ooWEWUVKMHUNZq4AJef" IsHidden="true" />
                 <Pin Id="KcXUTB4AeHBPq6SsM5W9di" Name="Input" Kind="InputPin" Bounds="527,529" />
                 <Pin Id="FTUCC1jSE0iPhk5PDKKern" Name="ID" Kind="OutputPin" Bounds="532,763" />
                 <Pin Id="TA0KrDl8jpANTBBGpYueh4" Name="Joint Positions" Kind="OutputPin" Bounds="362,782" />
                 <Pin Id="TDzeR0hyDUoL53KVPgsCo0" Name="Joint Orientations" Kind="OutputPin" Bounds="464,776" />
+                <Pin Id="Cu9ooWEWUVKMHUNZq4AJef" Name="Matrix" Kind="OutputPin" Bounds="517,792" />
                 <Pin Id="IdcDTjmHhkANsabMp310Zp" Name="Joint Types" Kind="OutputPin" Bounds="670,804" />
                 <Pin Id="DRbtPTuEh2PLVwUbcxD57x" Name="Joint Confidences" Kind="OutputPin" Bounds="573,780" />
-                <Link Id="O9OOVNBW5WLOhlP6rUwmrq" Ids="IkE6GdT4ji0MyDHKBLEVfF,USdWfYVsWykMVuoCbKhT4H" />
-                <Link Id="QR99u4X67C9NKCmEF5dzau" Ids="AJYNgHXUf3EPrSHQAgESGm,NJABmNyMOpINrgb1mtdrVV" />
-                <Link Id="UoB0y0siLi0LxUnwUH2GxT" Ids="JPIoTy7vdptL08Ojg7S9NU,RA8ACDq1uShPKouswAfY78" />
               </Patch>
             </Node>
             <!--
@@ -6436,6 +6538,7 @@
                   <Pin Id="Dl5H5XyeAVnLxaHZglIls7" Name="Input" Kind="StateInputPin" />
                   <Pin Id="IrQvM2es4uLK9ozI0vNWgJ" Name="Output" Kind="OutputPin" />
                   <Pin Id="F8CTRVpD8HNMiBeKvcyiHk" Name="Orientation" Kind="OutputPin" />
+                  <Pin Id="F54Sw23nhaHMDEVycmnlPR" Name="Matrix" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="949,1187,55,19" Id="GFiYZNtbJz0LTFmNxsUIgO">
                   <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
@@ -6565,6 +6668,7 @@
               <Pin Id="EBiO7hVLIrhNIFDPSt0qUr" Name="ID" Kind="OutputPin" />
               <Pin Id="LzaUU6QvG5VNzOpCzqonLz" Name="Joint Positions" Kind="OutputPin" />
               <Pin Id="EVY1KL1sbNsNePmm04N3xd" Name="Joint Orientations" Kind="OutputPin" />
+              <Pin Id="BjANrMKZIS2O5MYIqntNAQ" Name="Matrix" Kind="OutputPin" />
               <Pin Id="Kw37cU7FbaIMlDeAF7eZdd" Name="Joint Types" Kind="OutputPin" />
               <Pin Id="LhRDI9thBr3LpRESi3m8Ev" Name="Joint Confidences" Kind="OutputPin" />
             </Node>
@@ -7385,11 +7489,11 @@
   </Patch>
   <PlatformDependency Id="S36JEFIXXVvMre7qt6H783" Location="System" />
   <PlatformDependency Id="JMvORQOQIzrPEj9eCKbrF5" Location="System.Runtime" />
-  <NugetDependency Id="K4ICfeTj9dxLVvHqmGPgT9" Location="VL.Core" Version="2021.4.3" />
+  <NugetDependency Id="K4ICfeTj9dxLVvHqmGPgT9" Location="VL.Core" Version="2021.4.4" />
   <PlatformDependency Id="BUpgGtLZTuWOOQIIwQPuZE" Location="System.Runtime.InteropServices" />
   <PlatformDependency Id="FT9TxKi4fH0QMBKSVmLjbM" Location="./lib/net461/nuitrack.net.dll" />
   <PlatformDependency Id="Tx5Ww8gDWCSLqouiypeaQ1" Location="./lib/net461/VL.Devices.Nuitrack.dll" />
   <PlatformDependency Id="MmpchLHE9RKMMqV6sBUOtt" Location="../VL.Devices.AzureKinect/src/bin/x64/Debug/System.Reactive.dll" />
   <NugetDependency Id="KxJ5UKtGQyPNJwqWr8RV8X" Location="VL.Skia3d" Version="1.1.1" />
-  <NugetDependency Id="PSwK5UQopp7PUoLLae2LXA" Location="VL.Skia" Version="2021.4.3" />
+  <NugetDependency Id="PSwK5UQopp7PUoLLae2LXA" Location="VL.Skia" Version="2021.4.4" />
 </Document>
