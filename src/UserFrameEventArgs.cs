@@ -8,7 +8,7 @@ namespace VL.Devices.Nuitrack
         public readonly UserFrame UserFrame;
         
         public UserFrameEventArgs(UserFrame userFrame)
-        {
+        { 
             UserFrame = userFrame;
         }
     }

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="LIEtYdrRy3kPqelydP6a1l" LanguageVersion="2021.4.5.764" Version="0.128">
-  <NugetDependency Id="EEYSk9rCs8TLQ1HUJFqHly" Location="VL.CoreLib" Version="2021.4.5" />
+<Document xmlns:p="property" Id="LIEtYdrRy3kPqelydP6a1l" LanguageVersion="2021.4.9.982" Version="0.128">
+  <NugetDependency Id="EEYSk9rCs8TLQ1HUJFqHly" Location="VL.CoreLib" Version="2021.4.9" />
   <Patch Id="OF6M52TF0g1MIvRz41ucGu">
     <Canvas Id="Ue7xuqlBZHlLeRL5dLjZsS" DefaultCategory="Devices.Nuitrack" CanvasType="FullCategory">
       <Canvas Id="SU0RLJl3a2TP488puPQtMW" Name="Internal" Position="297,251">
@@ -822,11 +822,6 @@
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
                 </p:ValueBoxSettings>
               </Pad>
-              <Pad Id="PCJWpBkbRzdLTIilEXg0cg" Comment="" Bounds="501,59,167,15" ShowValueBox="true" isIOBox="true" Value="172.25.18.110">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="String" />
-                </p:TypeAnnotation>
-              </Pad>
               <Node Bounds="312,-26,166,120" Id="UYSZNikl7DOPCXtmfY4UDB">
                 <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -891,12 +886,15 @@
                 <ControlPoint Id="ExfcH9mt8yjPl5yFHUOjvM" Bounds="397,115" Alignment="Top" />
                 <ControlPoint Id="TjJUW8XxmsZN8W8bfe3bgl" Bounds="386,194" Alignment="Bottom" />
               </Node>
+              <ControlPoint Id="PJ1Vf9OMpfCQAL2OHvc4ao" Bounds="519,28" />
             </Canvas>
             <ProcessDefinition Id="OEhU1IIYjwfPYpLQWg0TKm">
               <Fragment Id="ROwan3Ap6oYMmTnCtulUul" Patch="KHsghHfM4KHP5Stu3k0TKc" Enabled="true" />
               <Fragment Id="GHd8vgEJntVLB3hWusde1C" Patch="KLeQBaRfWs0Mxgb20tmv8J" Enabled="true" />
             </ProcessDefinition>
-            <Patch Id="KHsghHfM4KHP5Stu3k0TKc" Name="Create" ParticipatingElements="Ugrn28BDLG0LXp2zUoPSuL" />
+            <Patch Id="KHsghHfM4KHP5Stu3k0TKc" Name="Create">
+              <Pin Id="Kj1Erzlncq7PqsKmAG9S1K" Name="IP" Kind="InputPin" />
+            </Patch>
             <Patch Id="Au9htwUqBGZOL8JUgyJHB0" Name="Dispose" ParticipatingElements="LiWL7CeDPeAQKqCdnSpVXI" />
             <Patch Id="KLeQBaRfWs0Mxgb20tmv8J" Name="Update" ParticipatingElements="TEfLlGMKL4eNbrfCyW6b3U" />
             <Link Id="PiUgBWGmrcdObhLcT26lLJ" Ids="IN4zxMx6MOuLzgqmsulxMr,B0HUHFmBX3nPk2atF2GDH1" />
@@ -905,7 +903,8 @@
             <Link Id="P28t5lx5miQOfw3ZMylXz9" Ids="ExfcH9mt8yjPl5yFHUOjvM,TjJUW8XxmsZN8W8bfe3bgl" IsFeedback="true" />
             <Link Id="UwKY1kS20NeOfRL1W1X9Ox" Ids="Agmsows7i5GMDW03FZrsFP,ExfcH9mt8yjPl5yFHUOjvM" />
             <Link Id="D4gHnOW5UcUOSUlU0FzTQa" Ids="RV3KJuZHUhbP47lewR8Ko8,PWU8O7cDtDSLfEvYPuZJ6c" />
-            <Link Id="Ugrn28BDLG0LXp2zUoPSuL" Ids="PCJWpBkbRzdLTIilEXg0cg,NEnyfk8mTNLOU5qYdTZOrZ" />
+            <Link Id="Uhns9ijmacZPOqGhqgnvyF" Ids="PJ1Vf9OMpfCQAL2OHvc4ao,NEnyfk8mTNLOU5qYdTZOrZ" />
+            <Link Id="FfwGDBsk36iNh84v9kBvZp" Ids="Kj1Erzlncq7PqsKmAG9S1K,PJ1Vf9OMpfCQAL2OHvc4ao" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -10645,6 +10644,7 @@
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="NuitrackContext (110)" />
                       </p:NodeReference>
+                      <Pin Id="EPCTEuaADstMhw7VWHcZR1" Name="IP" Kind="InputPin" />
                       <Pin Id="I5NcVv58dTlOoOuR1QYfeo" Name="Update" Kind="ApplyPin" />
                     </Node>
                   </Patch>
@@ -10679,8 +10679,11 @@
                 <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
               </p:ValueBoxSettings>
             </Pad>
+            <ControlPoint Id="GgDGOBAc6glOSgqCFQ4mxE" Bounds="312,-70" />
           </Canvas>
-          <Patch Id="HpLMtBtHp5YLqL7QttUEMz" Name="Create (Internal)" ParticipatingElements="EP8zYWg1oW7MIl5nRWaVN8" />
+          <Patch Id="HpLMtBtHp5YLqL7QttUEMz" Name="Create (Internal)" ParticipatingElements="EP8zYWg1oW7MIl5nRWaVN8">
+            <Pin Id="NFUmPm3HbjkM7Btlq74aJp" Name="IP" Kind="InputPin" />
+          </Patch>
           <ProcessDefinition Id="VofehCeJdqVPqptj6nCtlk" HasStateOut="true">
             <Fragment Id="BzJHrZvk1KSQHPMjIxJo1d" Patch="HpLMtBtHp5YLqL7QttUEMz" Enabled="true" />
             <Fragment Id="EvngPC3zf3jM06ixTyYzJK" Patch="STqngtny0oDMmjfdjLjVVF" Enabled="true" />
@@ -10863,6 +10866,8 @@
           <Link Id="Ektzr92NlpvQE7EHnJ46GY" Ids="KYesiA6mrfrMXRRa2nONpt,FR2k780EQn4QG1X1s4yjlC" />
           <Link Id="PoszTpNo4boK9wct0ZcbyR" Ids="GXNSyWdg5LuL2aZhbxNmOF,MlDnZ7WjwUNM0UnzIw4PoB" />
           <Link Id="ELKzEm4Z1lJO4Rswdq3Lp6" Ids="DWPyr0C1oUQOlnX4h1WAXe,RqqzdbMRX7JQSDcwouCfg4" />
+          <Link Id="JUEVEgczmEIMV1EqS6A2kD" Ids="GgDGOBAc6glOSgqCFQ4mxE,EPCTEuaADstMhw7VWHcZR1" />
+          <Link Id="T2PVb9dlT0XOS3aG301Fwv" Ids="NFUmPm3HbjkM7Btlq74aJp,GgDGOBAc6glOSgqCFQ4mxE" IsHidden="true" />
         </Patch>
       </Node>
       <!--
@@ -10998,11 +11003,13 @@
               <Pin Id="O5SNLkollffMtWcUUSoLyp" Name="Output" Kind="StateOutputPin" />
               <Pin Id="K8RURyp6ErPOXFsHp5TuVH" Name="Skeleton Data" Kind="OutputPin" />
             </Node>
+            <ControlPoint Id="PWKUJxrDReEPZC9NQw0nzT" Bounds="629,381" />
           </Canvas>
           <Patch Id="OWvjDhPxEjxMy5KZMRVvNd" Name="Create" />
           <Patch Id="MP4f7NUClksMEYpCCWEhHQ" Name="Update">
             <Pin Id="P9XWAGML1X8Oqxo4UGHfaV" Name="Device" Kind="InputPin" />
             <Pin Id="RrU0QzhWHyNP3SLopGtzZK" Name="Output" Kind="OutputPin" Bounds="412,781" />
+            <Pin Id="RHjkCUCTWWaOAuldKQaFgf" Name="On Data" Kind="OutputPin" Bounds="629,381" />
           </Patch>
           <ProcessDefinition Id="TXgS2XFZ2iNOcVyYUKxcp7">
             <Fragment Id="M6GXyuZ1zBRMX30gMKRraY" Patch="OWvjDhPxEjxMy5KZMRVvNd" Enabled="true" />
@@ -11013,6 +11020,8 @@
           <Link Id="Uos54Bbk3ezQLunhm07EFg" Ids="SRhUr8XrFcMQCpkgA2gIT3,PPuTmsfSkLvLxLXOUgxow8" />
           <Link Id="Enghk2NUubcQFslcdC2d06" Ids="LATflTw0UmHQZ23BUt4kqz,JOAkjkQ63pTL9deldRQBsE" />
           <Link Id="BA2uXcMg8WHOtnGHQSVaAr" Ids="K8RURyp6ErPOXFsHp5TuVH,BI9ViWKosc3NPilE0x3i61" />
+          <Link Id="OQKlYU55vDKLInqt65lPF3" Ids="LWM1TYmeCv1PruV1VLNSnC,PWKUJxrDReEPZC9NQw0nzT" />
+          <Link Id="StY9LWV5vKfNr3UoEh2M2o" Ids="PWKUJxrDReEPZC9NQw0nzT,RHjkCUCTWWaOAuldKQaFgf" IsHidden="true" />
         </Patch>
       </Node>
       <!--
@@ -12081,11 +12090,11 @@
   </Patch>
   <PlatformDependency Id="S36JEFIXXVvMre7qt6H783" Location="System" />
   <PlatformDependency Id="JMvORQOQIzrPEj9eCKbrF5" Location="System.Runtime" />
-  <NugetDependency Id="K4ICfeTj9dxLVvHqmGPgT9" Location="VL.Core" Version="2021.4.5" />
+  <NugetDependency Id="K4ICfeTj9dxLVvHqmGPgT9" Location="VL.Core" Version="2021.4.9" />
   <PlatformDependency Id="BUpgGtLZTuWOOQIIwQPuZE" Location="System.Runtime.InteropServices" />
   <PlatformDependency Id="FT9TxKi4fH0QMBKSVmLjbM" Location="./lib/net461/nuitrack.net.dll" />
   <PlatformDependency Id="Tx5Ww8gDWCSLqouiypeaQ1" Location="./lib/net461/VL.Devices.Nuitrack.dll" />
   <PlatformDependency Id="MmpchLHE9RKMMqV6sBUOtt" Location="../VL.Devices.AzureKinect/src/bin/x64/Debug/System.Reactive.dll" />
-  <NugetDependency Id="KxJ5UKtGQyPNJwqWr8RV8X" Location="VL.Skia3d" Version="1.1.1" />
-  <NugetDependency Id="PSwK5UQopp7PUoLLae2LXA" Location="VL.Skia" Version="2021.4.5" />
+  <NugetDependency Id="KxJ5UKtGQyPNJwqWr8RV8X" Location="VL.Skia3d" Version="1.1.2" />
+  <NugetDependency Id="PSwK5UQopp7PUoLLae2LXA" Location="VL.Skia" Version="2021.4.9" />
 </Document>
