@@ -341,33 +341,6 @@
               <Pad Id="F0pj2C7o2JQPgTo9BohNRN" SlotId="PbwlfMpWp1xM7KsB2saVEd" Bounds="248,387" />
               <Pad Id="BqhVuGZ5q0GLephxyn9Mcx" SlotId="NYyPwPPrsquNVTWMqUoL0X" Bounds="386,387" />
               <Pad Id="TNggFSDDAE0LoRvS3MVe5Y" SlotId="IZWyi4T1urkN723JjvV9aM" Bounds="512,387" />
-              <Node Bounds="195,552,51,26" Id="NhUWVqXzZESLiHfcV0wBTW">
-                <p:NodeReference LastCategoryFullName="nuitrack.Module" LastSymbolSource="nuitrack.net.dll">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="AssemblyCategory" Name="Module" />
-                  <Choice Kind="OperationCallFlag" Name="Release" />
-                </p:NodeReference>
-                <Pin Id="Gatl52ctvh4NiEgZbEeGl8" Name="Input" Kind="StateInputPin" />
-                <Pin Id="MgYY4RhCIFOPcnxmPo2nLo" Name="Output" Kind="StateOutputPin" />
-              </Node>
-              <Node Bounds="334,552,51,26" Id="AVdg2yZNDgTOMUJBuGfgPC">
-                <p:NodeReference LastCategoryFullName="nuitrack.Module" LastSymbolSource="nuitrack.net.dll">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="AssemblyCategory" Name="Module" />
-                  <Choice Kind="OperationCallFlag" Name="Release" />
-                </p:NodeReference>
-                <Pin Id="UI2OC9KsAZZQA2KlMDMJJo" Name="Input" Kind="StateInputPin" />
-                <Pin Id="PHTGjvrUVAAPnuGU3M9Ld5" Name="Output" Kind="StateOutputPin" />
-              </Node>
-              <Node Bounds="463,552,51,26" Id="QmwLipxAFBLQGJl2wDbiU8">
-                <p:NodeReference LastCategoryFullName="nuitrack.Module" LastSymbolSource="nuitrack.net.dll">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="AssemblyCategory" Name="Module" />
-                  <Choice Kind="OperationCallFlag" Name="Release" />
-                </p:NodeReference>
-                <Pin Id="BewA11f0ZYmOsGWmsbjPBX" Name="Input" Kind="StateInputPin" />
-                <Pin Id="SR0Vr5DAhSVMjTecFEiA1Q" Name="Output" Kind="StateOutputPin" />
-              </Node>
               <ControlPoint Id="MQKdczh3fy6OK5BHhDNTxE" Bounds="139,494" />
               <ControlPoint Id="HjeSftBwaNOQI9w1VclbAf" Bounds="277,494" />
               <ControlPoint Id="ATpRPQl0lHQOHZ7YWEODX0" Bounds="414,494" />
@@ -400,15 +373,6 @@
                 <Pin Id="JQPJn3PrEA4OtPlFiN6xQn" Name="Result" Kind="OutputPin" />
               </Node>
               <Pad Id="BcmhnI43a9RMnY75iX0PGi" SlotId="KVVC8QUB8deOQYiGTluwFR" Bounds="668,387" />
-              <Node Bounds="619,552,51,26" Id="N27TWJ1GR1pPzae3Q5q660">
-                <p:NodeReference LastCategoryFullName="nuitrack.Module" LastSymbolSource="nuitrack.net.dll">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="AssemblyCategory" Name="Module" />
-                  <Choice Kind="OperationCallFlag" Name="Release" />
-                </p:NodeReference>
-                <Pin Id="TyLgiRVoOwCNqBhN9FARhn" Name="Input" Kind="StateInputPin" />
-                <Pin Id="TbxJCm05V63OOA2QUdKFzb" Name="Output" Kind="StateOutputPin" />
-              </Node>
               <ControlPoint Id="Ev9jIwdAe72OB6J8eK1taj" Bounds="717,494" />
               <Node Bounds="108,320,46,19" Id="HtTRLg8nx0kMBMglx0u6OS">
                 <p:NodeReference LastCategoryFullName="nuitrack.ColorSensor" LastSymbolSource="nuitrack.net.dll">
@@ -418,14 +382,70 @@
                 </p:NodeReference>
                 <Pin Id="RMzGKIXNXzFQDci4Immw6M" Name="Result" Kind="OutputPin" />
               </Node>
-              <Node Bounds="59,530,51,19" Id="V665bmjdgYoMqKmdNUR4X2">
-                <p:NodeReference LastCategoryFullName="nuitrack.Module" LastSymbolSource="nuitrack.net.dll">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="AssemblyCategory" Name="Module" />
-                  <Choice Kind="OperationCallFlag" Name="Release" />
+              <Node Bounds="44,544,637,86" Id="Uj3IeqZymzRMrVSieorNAo">
+                <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="Try" />
                 </p:NodeReference>
-                <Pin Id="IGxaS7hh460Lm14HkPHqMp" Name="Input" Kind="StateInputPin" />
-                <Pin Id="NC7nYRIHIzmO9dWYXBjqPe" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="BUI0etdx4ucNfiMVUFQAjo" Name="Stick To Last Valid Outputs" Kind="InputPin" />
+                <Pin Id="T7RrLE9Yms7Oocwh8mtTTC" Name="Reset Region On Failure" Kind="InputPin" />
+                <Pin Id="Uv1pQqaaksDPmtS9EyR9ly" Name="Success" Kind="OutputPin" />
+                <Pin Id="MoGY6a8bkz7LwFxGFq77E2" Name="Error Message" Kind="OutputPin" />
+                <Pin Id="PmvPloDCjgeNm1xJeFBiyx" Name="Failure" Kind="OutputPin" />
+                <ControlPoint Id="JtgtSqyZeHJOvC67mHXakf" Bounds="58,551" Alignment="Top" />
+                <Patch Id="IqoCxIUfbBPL86FoLksAc4" ManuallySortedPins="true">
+                  <Node Bounds="56,583,51,26" Id="V665bmjdgYoMqKmdNUR4X2">
+                    <p:NodeReference LastCategoryFullName="nuitrack.Module" LastSymbolSource="nuitrack.net.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="AssemblyCategory" Name="Module" />
+                      <Choice Kind="OperationCallFlag" Name="Release" />
+                    </p:NodeReference>
+                    <Pin Id="IGxaS7hh460Lm14HkPHqMp" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="NC7nYRIHIzmO9dWYXBjqPe" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                  <Node Bounds="461,583,51,26" Id="QmwLipxAFBLQGJl2wDbiU8">
+                    <p:NodeReference LastCategoryFullName="nuitrack.Module" LastSymbolSource="nuitrack.net.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="AssemblyCategory" Name="Module" />
+                      <Choice Kind="OperationCallFlag" Name="Release" />
+                    </p:NodeReference>
+                    <Pin Id="BewA11f0ZYmOsGWmsbjPBX" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="SR0Vr5DAhSVMjTecFEiA1Q" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                  <Node Bounds="618,583,51,26" Id="N27TWJ1GR1pPzae3Q5q660">
+                    <p:NodeReference LastCategoryFullName="nuitrack.Module" LastSymbolSource="nuitrack.net.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="AssemblyCategory" Name="Module" />
+                      <Choice Kind="OperationCallFlag" Name="Release" />
+                    </p:NodeReference>
+                    <Pin Id="TyLgiRVoOwCNqBhN9FARhn" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="TbxJCm05V63OOA2QUdKFzb" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                  <Node Bounds="185,583,51,26" Id="NhUWVqXzZESLiHfcV0wBTW">
+                    <p:NodeReference LastCategoryFullName="nuitrack.Module" LastSymbolSource="nuitrack.net.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="AssemblyCategory" Name="Module" />
+                      <Choice Kind="OperationCallFlag" Name="Release" />
+                    </p:NodeReference>
+                    <Pin Id="Gatl52ctvh4NiEgZbEeGl8" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="MgYY4RhCIFOPcnxmPo2nLo" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                  <Node Bounds="316,583,51,26" Id="AVdg2yZNDgTOMUJBuGfgPC">
+                    <p:NodeReference LastCategoryFullName="nuitrack.Module" LastSymbolSource="nuitrack.net.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="AssemblyCategory" Name="Module" />
+                      <Choice Kind="OperationCallFlag" Name="Release" />
+                    </p:NodeReference>
+                    <Pin Id="UI2OC9KsAZZQA2KlMDMJJo" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="PHTGjvrUVAAPnuGU3M9Ld5" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                  <Patch Id="Nx4Tqkc2YzFLyodrTxnwOD" Name="Create" ManuallySortedPins="true" />
+                  <Patch Id="FXn44fr58eHQCXFUZQkG1C" Name="Update" ManuallySortedPins="true" />
+                </Patch>
+                <ControlPoint Id="FU2tOgpbuHsPSUZvwQL6fi" Bounds="187,551" Alignment="Top" />
+                <ControlPoint Id="EP0Vvac34BjNhpjEXETuZL" Bounds="318,551" Alignment="Top" />
+                <ControlPoint Id="PFJNwZHETmXNy1rPUUc6rq" Bounds="463,551" Alignment="Top" />
+                <ControlPoint Id="SsjPzPhgeOBPa2VcmkwWGE" Bounds="620,551" Alignment="Top" />
               </Node>
             </Canvas>
             <Patch Id="FHC4aTlaDO1NEnj4sK11iM" Name="Create" ParticipatingElements="DukrTML8qpaNs0q10ZeSAu,I9hv4UqVloJOQJie72ZStA,GGJot07R93fOVGERduWeDN,UKrWJY5vJsrOPiTkwq8qi6,Re5D4Jq0x2UN3tXTfvvHIJ" />
@@ -445,11 +465,7 @@
             <Slot Id="R4zGEnwjVcgN1X5cbzVUTN" Name="Color" />
             <Slot Id="PbwlfMpWp1xM7KsB2saVEd" Name="Depth" />
             <Slot Id="NYyPwPPrsquNVTWMqUoL0X" Name="User" />
-            <Patch Id="BHwPoelQM31MjeXYfaigdH" Name="Dispose" ParticipatingElements="NhUWVqXzZESLiHfcV0wBTW,AVdg2yZNDgTOMUJBuGfgPC,QmwLipxAFBLQGJl2wDbiU8,N27TWJ1GR1pPzae3Q5q660,CN8RzQw315gO3YmnJVtKMY" />
-            <Link Id="CN8RzQw315gO3YmnJVtKMY" Ids="IehTZoJuQExPs5jZ5OgbyP,IGxaS7hh460Lm14HkPHqMp" />
-            <Link Id="AcIOoLE32mZLcQppLg5waJ" Ids="F0pj2C7o2JQPgTo9BohNRN,Gatl52ctvh4NiEgZbEeGl8" />
-            <Link Id="VPP8GPIIRdeP4WMLn3iOBC" Ids="BqhVuGZ5q0GLephxyn9Mcx,UI2OC9KsAZZQA2KlMDMJJo" />
-            <Link Id="Jcjro0ds0UwNxoLRRPXIDJ" Ids="TNggFSDDAE0LoRvS3MVe5Y,BewA11f0ZYmOsGWmsbjPBX" />
+            <Patch Id="BHwPoelQM31MjeXYfaigdH" Name="Dispose" ParticipatingElements="DxVRMsLLxEwLF1DyMcwane" />
             <Link Id="BI1OgfxTzcfNgANhrteYa5" Ids="IehTZoJuQExPs5jZ5OgbyP,MQKdczh3fy6OK5BHhDNTxE" />
             <Link Id="Qc9X2SFMgtvM32EwYI2gNb" Ids="MQKdczh3fy6OK5BHhDNTxE,OOsoVlw1tO9PmiruNhLCpY" IsHidden="true" />
             <Patch Id="Lj5clMcNebzNP9v5nrQI11" Name="GetColorSensor">
@@ -472,7 +488,6 @@
             </Patch>
             <Patch Id="CUDc9FmVT8XMfwX59jNQYI" Name="Activate" ParticipatingElements="ErIFNFw6VGsPqpzc8PWGIk" />
             <Link Id="FUQEeqzydxbOhud9inOpFE" Ids="JQPJn3PrEA4OtPlFiN6xQn,BcmhnI43a9RMnY75iX0PGi" />
-            <Link Id="D0wjvF2eB2eMW2BJ45MXDb" Ids="BcmhnI43a9RMnY75iX0PGi,TyLgiRVoOwCNqBhN9FARhn" />
             <Link Id="JBPh9ihvkGoL7pSP8UY24V" Ids="BcmhnI43a9RMnY75iX0PGi,Ev9jIwdAe72OB6J8eK1taj" />
             <Slot Id="KVVC8QUB8deOQYiGTluwFR" Name="Hands" />
             <Link Id="BpMvQbXFiaNQXnPiWzhHKB" Ids="Ev9jIwdAe72OB6J8eK1taj,Ir6dkM8sAkvQNl3F9uyBG6" IsHidden="true" />
@@ -480,6 +495,16 @@
               <Pin Id="Ir6dkM8sAkvQNl3F9uyBG6" Name="Hands" Kind="OutputPin" />
             </Patch>
             <Link Id="Re5D4Jq0x2UN3tXTfvvHIJ" Ids="RMzGKIXNXzFQDci4Immw6M,IehTZoJuQExPs5jZ5OgbyP" />
+            <Link Id="DxVRMsLLxEwLF1DyMcwane" Ids="IehTZoJuQExPs5jZ5OgbyP,JtgtSqyZeHJOvC67mHXakf" />
+            <Link Id="KTJLD3S9vIALpqZUdCezxX" Ids="JtgtSqyZeHJOvC67mHXakf,IGxaS7hh460Lm14HkPHqMp" />
+            <Link Id="GQurz4sp0HHQMGn6J3IHW0" Ids="F0pj2C7o2JQPgTo9BohNRN,FU2tOgpbuHsPSUZvwQL6fi" />
+            <Link Id="VK2Cu1McfZBNlOwhh4uSXu" Ids="FU2tOgpbuHsPSUZvwQL6fi,Gatl52ctvh4NiEgZbEeGl8" />
+            <Link Id="TPVJKzHrbEqQVkE2nC13PK" Ids="BqhVuGZ5q0GLephxyn9Mcx,EP0Vvac34BjNhpjEXETuZL" />
+            <Link Id="TiD4l0gGJ8IMypsjECizTT" Ids="EP0Vvac34BjNhpjEXETuZL,UI2OC9KsAZZQA2KlMDMJJo" />
+            <Link Id="M0JdsOZ7sliOgxV0PGiqO8" Ids="TNggFSDDAE0LoRvS3MVe5Y,PFJNwZHETmXNy1rPUUc6rq" />
+            <Link Id="Eq27CU5aWXkLdGVELwc5cr" Ids="PFJNwZHETmXNy1rPUUc6rq,BewA11f0ZYmOsGWmsbjPBX" />
+            <Link Id="T8COCdPv95zLMtxaxIv57g" Ids="BcmhnI43a9RMnY75iX0PGi,SsjPzPhgeOBPa2VcmkwWGE" />
+            <Link Id="NgUjF0vUZuxPA78O4u4S2L" Ids="SsjPzPhgeOBPa2VcmkwWGE,TyLgiRVoOwCNqBhN9FARhn" />
           </Patch>
         </Node>
         <Pad Id="Px6NYA9jCEVOKh40NSiB2O" Bounds="649,241,508,84" ShowValueBox="true" isIOBox="true" Value="The Nuitrack modules need to be created all at once - otherwise the trackers won't operate correctly.&#xD;&#xA;Tried several hacks with delaying the call to Run, but wasn't reliable. The API simply can't deal with it properly it seems.">
